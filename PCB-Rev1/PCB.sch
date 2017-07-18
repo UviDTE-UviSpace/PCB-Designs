@@ -1,0 +1,698 @@
+EESchema Schematic File Version 2
+LIBS:PCB-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:myTransistors
+LIBS:PCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Esquema eléctrico"
+Date "2017-05-09"
+Rev ""
+Comp "Universidad de Vigo"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1
+U 1 1 5911CD4E
+P 1700 3950
+F 0 "R1" V 1780 3950 50  0000 C CNN
+F 1 "16.5k" V 1700 3950 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 1630 3950 30  0001 C CNN
+F 3 "" H 1700 3950 30  0000 C CNN
+	1    1700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5911CDD9
+P 2000 3200
+F 0 "R2" V 2080 3200 50  0000 C CNN
+F 1 "Customizable" V 1900 3150 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 1930 3200 30  0001 C CNN
+F 3 "" H 2000 3200 30  0000 C CNN
+	1    2000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5911CEF2
+P 2650 2500
+F 0 "R3" V 2730 2500 50  0000 C CNN
+F 1 "100k" V 2650 2500 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 2580 2500 30  0001 C CNN
+F 3 "" H 2650 2500 30  0000 C CNN
+	1    2650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5911CF32
+P 2650 3000
+F 0 "R4" V 2730 3000 50  0000 C CNN
+F 1 "165k" V 2650 3000 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 2580 3000 30  0001 C CNN
+F 3 "" H 2650 3000 30  0000 C CNN
+	1    2650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5911CF6B
+P 4050 2450
+F 0 "R6" V 4130 2450 50  0000 C CNN
+F 1 "10k" V 4050 2450 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 3980 2450 30  0001 C CNN
+F 3 "" H 4050 2450 30  0000 C CNN
+	1    4050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5911CFC3
+P 6050 2250
+F 0 "R10" V 6130 2250 50  0000 C CNN
+F 1 "10k" V 6050 2250 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 5980 2250 30  0001 C CNN
+F 3 "" H 6050 2250 30  0000 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5911D04B
+P 6450 2250
+F 0 "R11" V 6530 2250 50  0000 C CNN
+F 1 "10k" V 6450 2250 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 6380 2250 30  0001 C CNN
+F 3 "" H 6450 2250 30  0000 C CNN
+	1    6450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5911D091
+P 6750 3800
+F 0 "R12" V 6830 3800 50  0000 C CNN
+F 1 "100" V 6750 3800 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 6680 3800 30  0001 C CNN
+F 3 "" H 6750 3800 30  0000 C CNN
+	1    6750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5911D0FC
+P 6750 4000
+F 0 "R13" V 6830 4000 50  0000 C CNN
+F 1 "100" V 6750 4000 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 6680 4000 30  0001 C CNN
+F 3 "" H 6750 4000 30  0000 C CNN
+	1    6750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 5911D13A
+P 7550 4000
+F 0 "R15" V 7630 4000 50  0000 C CNN
+F 1 "100" V 7550 4000 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 7480 4000 30  0001 C CNN
+F 3 "" H 7550 4000 30  0000 C CNN
+	1    7550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 5911D18B
+P 7550 3800
+F 0 "R14" V 7630 3800 50  0000 C CNN
+F 1 "100" V 7550 3800 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 7480 3800 30  0001 C CNN
+F 3 "" H 7550 3800 30  0000 C CNN
+	1    7550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5911D243
+P 4200 5450
+F 0 "R8" V 4280 5450 50  0000 C CNN
+F 1 "100" V 4200 5450 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 4130 5450 30  0001 C CNN
+F 3 "" H 4200 5450 30  0000 C CNN
+	1    4200 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5911D2E7
+P 4200 5050
+F 0 "R7" V 4280 5050 50  0000 C CNN
+F 1 "100" V 4200 5050 50  0000 C CNN
+F 2 "myfootprint:R_0805_My_HandSoldering" V 4130 5050 30  0001 C CNN
+F 3 "" H 4200 5050 30  0000 C CNN
+	1    4200 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5911D332
+P 3900 5250
+F 0 "R5" V 3980 5250 50  0000 C CNN
+F 1 ".010" V 3900 5250 50  0000 C CNN
+F 2 "myfootprint:R_2010_My_HandSoldering" V 3830 5250 30  0001 C CNN
+F 3 "" H 3900 5250 30  0000 C CNN
+	1    3900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5911D3BA
+P 2000 3950
+F 0 "C1" H 2025 4050 50  0000 L CNN
+F 1 "3300p" H 2025 3850 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 2038 3800 30  0001 C CNN
+F 3 "" H 2000 3950 60  0000 C CNN
+	1    2000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5911D4A4
+P 5300 5250
+F 0 "C6" H 5325 5350 50  0000 L CNN
+F 1 "0.1u" H 5325 5150 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 5338 5100 30  0001 C CNN
+F 3 "" H 5300 5250 60  0000 C CNN
+	1    5300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5911D508
+P 4600 5050
+F 0 "C3" H 4625 5150 50  0000 L CNN
+F 1 "0.1u" H 4625 4950 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 4638 4900 30  0001 C CNN
+F 3 "" H 4600 5050 60  0000 C CNN
+	1    4600 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5911D57D
+P 4600 5450
+F 0 "C4" H 4625 5550 50  0000 L CNN
+F 1 "0.1u" H 4625 5350 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 4638 5300 30  0001 C CNN
+F 3 "" H 4600 5450 60  0000 C CNN
+	1    4600 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5911D5D5
+P 4800 4600
+F 0 "C5" H 4825 4700 50  0000 L CNN
+F 1 "1u" H 4825 4500 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 4838 4450 30  0001 C CNN
+F 3 "" H 4800 4600 60  0000 C CNN
+	1    4800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L BSS84 Q1
+U 1 1 5911E733
+P 2050 2750
+F 0 "Q1" H 2200 2825 50  0000 L CNN
+F 1 "BSS84" H 2200 2750 50  0000 L CNN
+F 2 "myfootprint:BSS84-SOT-23_Handsoldering" H 2200 2675 50  0001 L CIN
+F 3 "" H 2000 2750 50  0000 L CNN
+	1    2050 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L BSS138 Q2
+U 1 1 59150B8E
+P 2750 3850
+F 0 "Q2" H 2950 3925 50  0000 L CNN
+F 1 "BSS138" H 2950 3850 50  0000 L CNN
+F 2 "myfootprint:BSS138-SOT-23_Handsoldering" H 2950 3775 50  0001 L CIN
+F 3 "" H 2750 3850 50  0000 L CNN
+	1    2750 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N7002 Q3
+U 1 1 5915105A
+P 3500 2650
+F 0 "Q3" H 3700 2725 50  0000 L CNN
+F 1 "2N7002" H 3700 2650 50  0000 L CNN
+F 2 "myfootprint:SOT-23_Handsoldering" H 3700 2575 50  0001 L CIN
+F 3 "" H 3500 2650 50  0000 L CNN
+	1    3500 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BZT52C5V65-7 D1
+U 1 1 591512DF
+P 4050 3150
+F 0 "D1" H 4050 3250 50  0000 C CNN
+F 1 "BZT52C5V65-7" H 4050 3050 50  0000 C CNN
+F 2 "myfootprint:SOD-323" H 4050 3150 60  0001 C CNN
+F 3 "" H 4050 3150 60  0000 C CNN
+	1    4050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 5915136A
+P 3400 3300
+F 0 "C2" H 3425 3400 50  0000 L CNN
+F 1 "0.1u" H 3425 3200 50  0000 L CNN
+F 2 "myfootprint:C_0805_HandSoldering" H 3438 3150 30  0001 C CNN
+F 3 "" H 3400 3300 60  0000 C CNN
+	1    3400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR01
+U 1 1 591518C6
+P 3400 3700
+F 0 "#PWR01" H 3400 3450 50  0001 C CNN
+F 1 "GNDREF" H 3400 3550 50  0000 C CNN
+F 2 "" H 3400 3700 60  0000 C CNN
+F 3 "" H 3400 3700 60  0000 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR02
+U 1 1 5915194A
+P 2650 4200
+F 0 "#PWR02" H 2650 3950 50  0001 C CNN
+F 1 "GNDREF" H 2650 4050 50  0000 C CNN
+F 2 "" H 2650 4200 60  0000 C CNN
+F 3 "" H 2650 4200 60  0000 C CNN
+	1    2650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR03
+U 1 1 591535C9
+P 5300 4600
+F 0 "#PWR03" H 5300 4350 50  0001 C CNN
+F 1 "GNDREF" H 5300 4450 50  0000 C CNN
+F 2 "" H 5300 4600 60  0000 C CNN
+F 3 "" H 5300 4600 60  0000 C CNN
+	1    5300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR04
+U 1 1 5915376E
+P 4950 5250
+F 0 "#PWR04" H 4950 5000 50  0001 C CNN
+F 1 "GNDREF" H 4950 5100 50  0000 C CNN
+F 2 "" H 4950 5250 60  0000 C CNN
+F 3 "" H 4950 5250 60  0000 C CNN
+	1    4950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR05
+U 1 1 591550C3
+P 4200 4000
+F 0 "#PWR05" H 4200 3750 50  0001 C CNN
+F 1 "GNDREF" H 4000 3950 50  0000 C CNN
+F 2 "" H 4200 4000 60  0000 C CNN
+F 3 "" H 4200 4000 60  0000 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AZ23C5V6-7 D3
+U 1 1 5915CB10
+P 7200 4300
+F 0 "D3" H 7200 4300 50  0000 C CNN
+F 1 "AZ23C5V6-7" V 7000 4300 50  0000 C CNN
+F 2 "myfootprint:D_SOT-23_NKA" V 7100 4300 60  0001 C CNN
+F 3 "" V 7100 4300 60  0000 C CNN
+	1    7200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR06
+U 1 1 5915CD64
+P 7200 4600
+F 0 "#PWR06" H 7200 4350 50  0001 C CNN
+F 1 "GNDREF" H 7200 4450 50  0000 C CNN
+F 2 "" H 7200 4600 60  0000 C CNN
+F 3 "" H 7200 4600 60  0000 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 2100 0    60   Input ~ 0
+REG_IN
+Text GLabel 3650 4200 0    60   Input ~ 0
+REG_IN
+$Comp
+L THERMISTOR TH1
+U 1 1 59163373
+P 6000 4250
+F 0 "TH1" V 6100 4300 50  0000 C CNN
+F 1 "10K" V 5900 4250 50  0000 C BNN
+F 2 "myfootprint:Thermistor" H 6000 4250 60  0001 C CNN
+F 3 "" H 6000 4250 60  0000 C CNN
+	1    6000 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 4600 0    60   Input ~ 0
+REG_25
+Text GLabel 6350 4250 2    60   Input ~ 0
+REG_25
+Text Label 8200 3800 0    60   ~ 0
+SDA
+Text Label 8200 3900 0    60   ~ 0
+SCL
+Text Label 8200 4000 0    60   ~ 0
+GND
+Text Label 1150 4700 0    60   ~ 0
+BATT+
+Text Label 1150 4800 0    60   ~ 0
+BATT-
+Text Label 1150 4900 0    60   ~ 0
+PACK-
+NoConn ~ 5300 4000
+$Comp
+L bq34z100pw-RESCUE-PCB U1
+U 1 1 5917785A
+P 4750 3650
+F 0 "U1" H 4600 3600 60  0000 C CNN
+F 1 "bq34z100pw" H 5050 3700 60  0000 C CNN
+F 2 "myfootprint:SSOP-14-Bq" H 4750 3750 60  0001 C CNN
+F 3 "" H 4750 3750 60  0000 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR07
+U 1 1 59178FD1
+P 1050 1050
+F 0 "#PWR07" H 1050 800 50  0001 C CNN
+F 1 "GNDREF" H 1050 900 50  0000 C CNN
+F 2 "" H 1050 1050 60  0000 C CNN
+F 3 "" H 1050 1050 60  0000 C CNN
+	1    1050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 59178F50
+P 1050 950
+F 0 "#FLG08" H 1050 1045 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 1130 50  0000 C CNN
+F 2 "" H 1050 950 60  0000 C CNN
+F 3 "" H 1050 950 60  0000 C CNN
+	1    1050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Con3,*234 P3
+U 1 1 591D5800
+P 8650 3850
+F 0 "P3" H 8650 4100 50  0000 C CNN
+F 1 "Con3,*234" V 8750 3850 50  0000 C CNN
+F 2 "myfootprint:Con3,-234" H 8650 3850 60  0001 C CNN
+F 3 "" H 8650 3850 60  0000 C CNN
+	1    8650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Con3,123* P1
+U 1 1 591D61DF
+P 850 4850
+F 0 "P1" H 850 5100 50  0000 C CNN
+F 1 "Con3,123*" V 950 4850 50  0000 C CNN
+F 2 "myfootprint:Con3,123-" H 850 4850 60  0001 C CNN
+F 3 "" H 850 4850 60  0000 C CNN
+	1    850  4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR09
+U 1 1 593FDAC0
+P 1750 5050
+F 0 "#PWR09" H 1750 4800 50  0001 C CNN
+F 1 "GNDREF" H 1750 4900 50  0000 C CNN
+F 2 "" H 1750 5050 60  0000 C CNN
+F 3 "" H 1750 5050 60  0000 C CNN
+	1    1750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3650 2650 3150
+Wire Wire Line
+	2650 2650 2650 2850
+Wire Wire Line
+	2650 2200 2650 2350
+Wire Wire Line
+	1450 2200 4050 2200
+Wire Wire Line
+	2000 2550 2000 2200
+Connection ~ 2000 2200
+Wire Wire Line
+	2300 2700 2650 2700
+Connection ~ 2650 2700
+Wire Wire Line
+	2000 3050 2000 2950
+Wire Wire Line
+	2650 4050 2650 4200
+Wire Wire Line
+	3400 3450 3400 3700
+Wire Wire Line
+	3400 3550 4050 3550
+Wire Wire Line
+	4050 3550 4050 3350
+Wire Wire Line
+	4050 2600 4050 2950
+Connection ~ 2650 2200
+Wire Wire Line
+	3700 2700 4050 2700
+Connection ~ 4050 2700
+Wire Wire Line
+	3400 2850 3400 3150
+Wire Wire Line
+	3400 3050 3750 3050
+Wire Wire Line
+	3750 3050 3750 4200
+Wire Wire Line
+	3650 4200 4300 4200
+Connection ~ 3400 3050
+Wire Wire Line
+	4300 4300 4300 4300
+Wire Wire Line
+	4300 4200 4300 4300
+Connection ~ 4300 4200
+Connection ~ 3400 3550
+Wire Wire Line
+	2000 3800 1700 3800
+Wire Wire Line
+	2000 3350 2000 3800
+Wire Wire Line
+	1700 4100 2650 4100
+Connection ~ 2650 4100
+Connection ~ 2000 4100
+Wire Wire Line
+	4050 2200 4050 2300
+Wire Wire Line
+	4300 4400 4300 4600
+Wire Wire Line
+	4200 4600 4650 4600
+Wire Wire Line
+	4950 4600 5300 4600
+Wire Wire Line
+	5300 4600 5300 4400
+Wire Wire Line
+	4750 5050 4750 5450
+Wire Wire Line
+	4750 5250 4950 5250
+Connection ~ 4750 5250
+Wire Wire Line
+	4350 5050 4450 5050
+Wire Wire Line
+	4350 5450 4450 5450
+Wire Wire Line
+	1050 4800 4050 4800
+Wire Wire Line
+	3900 4800 3900 5100
+Wire Wire Line
+	3900 5400 3900 5450
+Wire Wire Line
+	3750 5450 4050 5450
+Wire Wire Line
+	5300 5100 5300 4900
+Wire Wire Line
+	4400 4900 5500 4900
+Wire Wire Line
+	4400 4900 4400 5050
+Connection ~ 4400 5050
+Wire Wire Line
+	5300 5400 5300 5650
+Wire Wire Line
+	4400 5650 5600 5650
+Wire Wire Line
+	4400 5650 4400 5450
+Connection ~ 4400 5450
+Wire Wire Line
+	5500 4900 5500 4300
+Wire Wire Line
+	5500 4300 5300 4300
+Connection ~ 5300 4900
+Wire Wire Line
+	5300 4200 5600 4200
+Wire Wire Line
+	5600 4200 5600 5650
+Connection ~ 5300 5650
+Connection ~ 3900 4800
+Wire Wire Line
+	3750 5450 3750 4900
+Wire Wire Line
+	3750 4900 1050 4900
+Connection ~ 3900 5450
+Wire Wire Line
+	1450 2200 1450 4700
+Wire Wire Line
+	1450 4700 1050 4700
+Wire Wire Line
+	4300 4100 3050 4100
+Wire Wire Line
+	3050 4100 3050 3500
+Wire Wire Line
+	3050 3500 2000 3500
+Connection ~ 2000 3500
+Wire Wire Line
+	7200 4600 7200 4550
+Wire Wire Line
+	6900 3800 7400 3800
+Wire Wire Line
+	6900 4000 7400 4000
+Wire Wire Line
+	7300 4100 7300 4000
+Connection ~ 7300 4000
+Wire Wire Line
+	7100 4100 7100 3800
+Connection ~ 7100 3800
+Wire Wire Line
+	7700 3800 8450 3800
+Wire Wire Line
+	7700 4000 7750 4000
+Wire Wire Line
+	7750 4000 7750 3900
+Wire Wire Line
+	7750 3900 8450 3900
+Wire Wire Line
+	7200 4600 7800 4600
+Wire Wire Line
+	7800 4600 7800 4000
+Wire Wire Line
+	7800 4000 8450 4000
+Wire Wire Line
+	6600 3900 6600 4000
+Wire Wire Line
+	5900 2100 6450 2100
+Connection ~ 6050 2100
+Connection ~ 3750 4200
+Wire Wire Line
+	5750 4250 5750 4100
+Wire Wire Line
+	5750 4100 5300 4100
+Connection ~ 4300 4600
+Wire Wire Line
+	6350 4250 6250 4250
+Wire Wire Line
+	4050 4800 4050 5050
+Wire Wire Line
+	4300 3900 2950 3900
+Wire Wire Line
+	3400 2450 3400 2200
+Connection ~ 3400 2200
+Wire Wire Line
+	1050 950  1050 1050
+Wire Wire Line
+	1750 5050 1750 4800
+Connection ~ 1750 4800
+Wire Wire Line
+	4300 4000 4200 4000
+Wire Wire Line
+	4200 4000 4200 3800
+Wire Wire Line
+	4200 3800 4300 3800
+Wire Wire Line
+	6600 3900 5300 3900
+Wire Wire Line
+	5300 3800 6600 3800
+Wire Wire Line
+	6450 3400 6450 3800
+Connection ~ 6450 3800
+Wire Wire Line
+	6050 3400 6050 3800
+Connection ~ 6050 3800
+$Comp
+L SPST SW1
+U 1 1 59607E79
+P 6050 2900
+F 0 "SW1" H 6050 3000 50  0000 C CNN
+F 1 "SPST" H 6050 2800 50  0000 C CNN
+F 2 "myfootprint:DIP-2_LongPads" H 6050 2900 60  0001 C CNN
+F 3 "" H 6050 2900 60  0000 C CNN
+	1    6050 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L SPST SW2
+U 1 1 59607F6E
+P 6450 2900
+F 0 "SW2" H 6450 3000 50  0000 C CNN
+F 1 "SPST" H 6450 2800 50  0000 C CNN
+F 2 "myfootprint:DIP-2_LongPads" H 6450 2900 60  0001 C CNN
+F 3 "" H 6450 2900 60  0000 C CNN
+	1    6450 2900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

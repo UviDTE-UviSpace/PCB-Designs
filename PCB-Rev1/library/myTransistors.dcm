@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS84
+D 50V Vds, 130mA , P-Channel MOSFET, 10Ohm
+K P-Channel MOSFET Logic Level
+$ENDCMP
+#
+#End Doc Library
