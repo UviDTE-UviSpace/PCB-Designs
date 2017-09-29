@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS84
+D 50V Vds, 130mA , P-Channel MOSFET, 10Ohm
+K P-Channel MOSFET Logic Level
+$ENDCMP
+#
+$CMP bq34z100pw
+D Circuito Integrado de monitorización de nivel de carga de baterías
+K monitorización
+$ENDCMP
+#
+#End Doc Library
