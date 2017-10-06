@@ -1,0 +1,386 @@
+EESchema Schematic File Version 2
+LIBS:final-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:final-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Esquema cargador"
+Date "19 may 2015"
+Rev "v2.2"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R-RESCUE-final Rsns2
+U 1 1 551A79B8
+P 4125 2400
+F 0 "Rsns2" V 4205 2400 40  0000 C CNN
+F 1 "0.15" V 4132 2401 40  0000 C CNN
+F 2 "~" V 4055 2400 30  0000 C CNN
+F 3 "~" H 4125 2400 30  0000 C CNN
+	1    4125 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MOSFET_P Q1
+U 1 1 551A7A66
+P 5450 2500
+F 0 "Q1" H 5450 2690 60  0000 R CNN
+F 1 "MOSFET_P" H 5450 2320 60  0000 R CNN
+F 2 "~" H 5450 2500 60  0000 C CNN
+F 3 "~" H 5450 2500 60  0000 C CNN
+	1    5450 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L R-RESCUE-final R3
+U 1 1 551A7C59
+P 5800 4250
+F 0 "R3" V 5880 4250 40  0000 C CNN
+F 1 "511" V 5807 4251 40  0000 C CNN
+F 2 "~" V 5730 4250 30  0000 C CNN
+F 3 "~" H 5800 4250 30  0000 C CNN
+	1    5800 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-RESCUE-final C2
+U 1 1 551A7CA5
+P 7950 3050
+F 0 "C2" H 7950 3150 40  0000 L CNN
+F 1 "0.1uF" H 7956 2965 40  0000 L CNN
+F 2 "~" H 7988 2900 30  0000 C CNN
+F 3 "~" H 7950 3050 60  0000 C CNN
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-final C1
+U 1 1 551A7CB4
+P 3550 3600
+F 0 "C1" H 3550 3700 40  0000 L CNN
+F 1 "0.1uF" H 3556 3515 40  0000 L CNN
+F 2 "~" H 3588 3450 30  0000 C CNN
+F 3 "~" H 3550 3600 60  0000 C CNN
+	1    3550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-final RG1
+U 1 1 551A7C49
+P 5150 3000
+F 0 "RG1" V 5230 3000 40  0000 C CNN
+F 1 "1k" V 5157 3001 40  0000 C CNN
+F 2 "~" V 5080 3000 30  0000 C CNN
+F 3 "~" H 5150 3000 30  0000 C CNN
+	1    5150 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-final R5
+U 1 1 551BB6C6
+P 6500 5200
+F 0 "R5" V 6580 5200 40  0000 C CNN
+F 1 "1k" V 6507 5201 40  0000 C CNN
+F 2 "~" V 6430 5200 30  0000 C CNN
+F 3 "~" H 6500 5200 30  0000 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-final R4
+U 1 1 551BB6D5
+P 6150 5200
+F 0 "R4" V 6230 5200 40  0000 C CNN
+F 1 "1k" V 6157 5201 40  0000 C CNN
+F 2 "~" V 6080 5200 30  0000 C CNN
+F 3 "~" H 6150 5200 30  0000 C CNN
+	1    6150 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 2400
+Wire Wire Line
+	3550 3150 6500 3150
+Wire Wire Line
+	5650 2400 8400 2400
+Wire Wire Line
+	7950 2850 7950 2400
+Connection ~ 7950 2400
+Connection ~ 6800 2400
+Wire Wire Line
+	6500 4750 6500 4950
+Wire Wire Line
+	6500 5550 6500 5450
+Connection ~ 6500 5550
+Wire Wire Line
+	6150 5550 6150 5450
+Connection ~ 6150 5550
+Wire Wire Line
+	7950 5550 2950 5550
+Wire Wire Line
+	6500 4050 6500 4550
+Wire Wire Line
+	6150 4350 6500 4350
+Wire Wire Line
+	6150 4350 6150 4950
+Wire Wire Line
+	6050 4250 7050 4250
+$Comp
+L DIODESCH D1
+U 1 1 551BBC8E
+P 3225 2400
+F 0 "D1" H 3225 2500 40  0000 C CNN
+F 1 "DIODESCH" H 3225 2300 40  0000 C CNN
+F 2 "~" H 3225 2400 60  0000 C CNN
+F 3 "~" H 3225 2400 60  0000 C CNN
+	1    3225 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3250 7950 5550
+Wire Wire Line
+	7950 3450 8400 3450
+$Comp
+L CONN_2 IN1
+U 1 1 551BBEB1
+P 2600 4125
+F 0 "IN1" V 2550 4125 40  0000 C CNN
+F 1 "CONN_2" V 2650 4125 40  0000 C CNN
+F 2 "" H 2600 4125 60  0000 C CNN
+F 3 "" H 2600 4125 60  0000 C CNN
+	1    2600 4125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_2 BAT1
+U 1 1 551BBF37
+P 8750 2950
+F 0 "BAT1" V 8700 2950 40  0000 C CNN
+F 1 "CONN_2" V 8800 2950 40  0000 C CNN
+F 2 "" H 8750 2950 60  0000 C CNN
+F 3 "" H 8750 2950 60  0000 C CNN
+	1    8750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2400 8400 2850
+Wire Wire Line
+	8400 3450 8400 3050
+$Comp
+L CONN_2 LED1
+U 1 1 551BBFC2
+P 6850 4650
+F 0 "LED1" V 6800 4650 40  0000 C CNN
+F 1 "CONN_2" V 6900 4650 40  0000 C CNN
+F 2 "" H 6850 4650 60  0000 C CNN
+F 3 "" H 6850 4650 60  0000 C CNN
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 LED2
+U 1 1 551BC05B
+P 7400 4650
+F 0 "LED2" V 7350 4650 40  0000 C CNN
+F 1 "CONN_2" V 7450 4650 40  0000 C CNN
+F 2 "" H 7400 4650 60  0000 C CNN
+F 3 "" H 7400 4650 60  0000 C CNN
+	1    7400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4250 7050 4550
+Wire Wire Line
+	7050 4750 7050 5000
+Wire Wire Line
+	7050 5000 7575 5000
+Wire Wire Line
+	7575 5000 7575 4050
+Wire Wire Line
+	7575 4050 6425 4050
+Wire Wire Line
+	6425 3800 6650 3800
+Wire Wire Line
+	6650 3800 6650 3350
+Wire Wire Line
+	6650 3350 5450 3350
+Wire Wire Line
+	5450 3350 5450 2700
+Wire Wire Line
+	5400 3000 5450 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	6425 3675 6500 3675
+Wire Wire Line
+	6500 3675 6500 3150
+Wire Wire Line
+	6425 3925 7700 3925
+Wire Wire Line
+	7700 3925 7700 5550
+Wire Wire Line
+	4350 3925 5575 3925
+Wire Wire Line
+	5575 3675 4850 3675
+Wire Wire Line
+	4850 3675 4850 2400
+Wire Wire Line
+	5575 3800 5450 3800
+Wire Wire Line
+	5450 3800 5450 3475
+Wire Wire Line
+	5450 3475 6800 3475
+Wire Wire Line
+	6800 3475 6800 2400
+Wire Wire Line
+	4900 3000 4525 3000
+Wire Wire Line
+	4525 3000 4525 4250
+Connection ~ 4525 3150
+Connection ~ 7700 5550
+Connection ~ 7950 3450
+Wire Wire Line
+	5350 4050 5575 4050
+Connection ~ 6500 4050
+Connection ~ 6500 4350
+Wire Wire Line
+	4525 4250 5550 4250
+Connection ~ 4525 3925
+$Comp
+L CONN_2 sel1
+U 1 1 555B5FED
+P 4625 4475
+F 0 "sel1" V 4575 4475 40  0000 C CNN
+F 1 "CONN_2" V 4675 4475 40  0000 C CNN
+F 2 "" H 4625 4475 60  0000 C CNN
+F 3 "" H 4625 4475 60  0000 C CNN
+	1    4625 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4375 4975 4375
+Wire Wire Line
+	5350 4050 5350 4375
+$Comp
+L R-RESCUE-final R1
+U 1 1 555B604B
+P 4350 4425
+F 0 "R1" V 4430 4425 40  0000 C CNN
+F 1 "10k" V 4357 4426 40  0000 C CNN
+F 2 "~" V 4280 4425 30  0000 C CNN
+F 3 "~" H 4350 4425 30  0000 C CNN
+	1    4350 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-final R2
+U 1 1 555B605B
+P 4350 5075
+F 0 "R2" V 4430 5075 40  0000 C CNN
+F 1 "10k" V 4357 5076 40  0000 C CNN
+F 2 "~" V 4280 5075 30  0000 C CNN
+F 3 "~" H 4350 5075 30  0000 C CNN
+	1    4350 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4175 4350 3925
+Wire Wire Line
+	4350 4675 4350 4825
+Wire Wire Line
+	4350 5550 4350 5325
+Connection ~ 4350 5550
+Wire Wire Line
+	4975 4575 5100 4575
+Wire Wire Line
+	5100 4575 5100 4750
+Wire Wire Line
+	5100 4750 4350 4750
+Connection ~ 4350 4750
+$Comp
+L R-RESCUE-final Rsns1
+U 1 1 555B61D6
+P 3800 2075
+F 0 "Rsns1" V 3880 2075 40  0000 C CNN
+F 1 "0.12" V 3807 2076 40  0000 C CNN
+F 2 "~" V 3730 2075 30  0000 C CNN
+F 3 "~" H 3800 2075 30  0000 C CNN
+	1    3800 2075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 555B6268
+P 4550 2075
+F 0 "SW1" H 4550 2175 70  0000 C CNN
+F 1 "SPST" H 4550 1975 70  0000 C CNN
+F 2 "~" H 4550 2075 60  0000 C CNN
+F 3 "~" H 4550 2075 60  0000 C CNN
+	1    4550 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5550 2950 4225
+Wire Wire Line
+	2950 4025 2950 2400
+Wire Wire Line
+	2950 2400 3025 2400
+Wire Wire Line
+	3550 3800 3550 5550
+Connection ~ 3550 5550
+Wire Wire Line
+	3550 2075 3550 3400
+Connection ~ 3550 2400
+Connection ~ 3550 3150
+Wire Wire Line
+	3425 2400 3875 2400
+Wire Wire Line
+	4375 2400 5250 2400
+Wire Wire Line
+	5050 2075 5050 2400
+Connection ~ 5050 2400
+$Comp
+L BQ2057W U1
+U 1 1 555B9281
+P 5875 4125
+F 0 "U1" H 6000 4675 60  0000 C CNN
+F 1 "BQ2057W" V 6000 4375 60  0000 C CNN
+F 2 "~" H 5625 4525 60  0000 C CNN
+F 3 "~" H 5625 4525 60  0000 C CNN
+	1    5875 4125
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
