@@ -1,0 +1,59 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TO-220
+$EndINDEX
+$MODULE TO-220
+Po 0 0 0 15 00000000 00000000 ~~
+Li TO-220
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0 0 1 0.9 0 0.05 N H 21 "TO-220"
+T1 0 0 1 0.9 0 0.05 N H 21 "VAL**"
+DS -5.715 -1.905 5.715 -1.905 0.254 21
+DS 5.715 -1.905 5.715 6.985 0.254 21
+DS 5.715 6.985 -5.715 6.985 0.254 21
+DS -5.715 6.985 -5.715 -1.905 0.254 21
+DP 0 0 0 0 4 0.381 24
+Dl -5.715 -10.795
+Dl 5.715 -10.795
+Dl 5.715 13.335
+Dl -5.715 13.335
+$PAD
+Sh "1" O 4.064 2.032 0 0 900
+Dr 1.27 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -2.54 11.43
+$EndPAD
+$PAD
+Sh "2" O 4.064 2.032 0 0 900
+Dr 1.27 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0 11.43
+$EndPAD
+$PAD
+Sh "3" O 4.064 2.032 0 0 900
+Dr 1.27 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.54 11.43
+$EndPAD
+$PAD
+Sh "HEAT" C 7.62 7.62 0 0 0
+Dr 3.2004 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0 -6.35
+$EndPAD
+$EndMODULE TO-220
