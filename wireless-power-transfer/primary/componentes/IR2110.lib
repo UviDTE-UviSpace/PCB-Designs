@@ -1,38 +1,36 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
-#(c) SnapEDA 2016 (snapeda.com)
-#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
 #
 # IR2110
 #
-DEF IR2110 U 0 40 Y Y 1 L N
+DEF ~IR2110 U 0 40 Y Y 1 L N
 F0 "U" 0 0 50 H I L BNN
 F1 "IR2110" 0 0 50 H I L BNN
 F2 "DIL14-1" 0 0 50 H I L BNN
-F3 "DIP-14 International Rectifier" 0 0 50 H I L BNN "Package"
+F3 "DIP-14 International Rectifier" 0 0 50 H I L BNN
 F4 "High and Low Side Driver%2C All High Voltage Pins On One Side%2C Separate Logic and Power Ground%2C Shut-Down" 0 0 50 H I L BNN "Description"
 F5 "IR2110" 0 0 50 H I L BNN "MP"
 F6 "Unavailable" 0 0 50 H I L BNN "Availability"
 F7 "International Rectifier" 0 0 50 H I L BNN "MF"
 F8 "2.97 USD" 0 0 50 H I L BNN "Price"
 DRAW
-P 2 0 0 10 -700 1000 600 1000 N
-P 2 0 0 10 600 1000 600 -1100 N
-P 2 0 0 10 600 -1100 -700 -1100 N
-P 2 0 0 10 -700 -1100 -700 1000 N
 T 0 -300 800 100 0 0 0 IR2110 Normal 0 L B
-X VDD P9 -900 500 200 R 40 40 0 0 B 
-X HIN P10 -900 200 200 R 40 40 0 0 B 
-X SD P11 -900 -100 200 R 40 40 0 0 B 
-X LIN P12 -900 -400 200 R 40 40 0 0 B 
-X VSS P13 -900 -700 200 R 40 40 0 0 B 
-X LO P1 800 -1000 200 L 40 40 0 0 B 
-X COM P2 800 -700 200 L 40 40 0 0 B 
-X VCC P3 800 -400 200 L 40 40 0 0 B 
-X VS P5 800 200 200 L 40 40 0 0 B 
-X VB P6 800 500 200 L 40 40 0 0 B 
-X HO P7 800 800 200 L 40 40 0 0 B 
+P 2 0 0 10 -700 -1100 -700 1000 N
+P 2 0 0 10 -700 1000 600 1000 N
+P 2 0 0 10 600 -1100 -700 -1100 N
+P 2 0 0 10 600 1000 600 -1100 N
+X LO 1 800 -1000 200 L 40 40 0 0 B
+X COM 2 800 -700 200 L 40 40 0 0 B
+X VCC 3 800 -400 200 L 40 40 0 0 B
+X VS 5 800 200 200 L 40 40 0 0 B
+X VB 6 800 500 200 L 40 40 0 0 B
+X HO 7 800 800 200 L 40 40 0 0 B
+X VDD 9 -900 500 200 R 40 40 0 0 B
+X HIN 10 -900 200 200 R 40 40 0 0 B
+X SD 11 -900 -100 200 R 40 40 0 0 B
+X LIN 12 -900 -400 200 R 40 40 0 0 B
+X VSS 13 -900 -700 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# End Library
+#End Library

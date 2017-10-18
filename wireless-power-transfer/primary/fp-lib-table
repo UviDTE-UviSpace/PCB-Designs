@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name componentes)(type KiCad)(uri "C:/Users/Santiago/Dropbox (Personal)/TFG SDVP/placa/placa/componentes")(options "")(descr "Componentes de la placa"))
 )
