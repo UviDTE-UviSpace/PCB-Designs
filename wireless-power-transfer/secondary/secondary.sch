@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:secondary-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,89 +44,89 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D_Schottky D?
+L D_Schottky D1
 U 1 1 59E7A3A2
 P 4350 2750
-F 0 "D?" H 4350 2850 50  0000 C CNN
+F 0 "D1" H 4350 2850 50  0000 C CNN
 F 1 "D_Schottky" H 4350 2650 50  0000 C CNN
-F 2 "" H 4350 2750 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 4350 2750 50  0001 C CNN
 F 3 "" H 4350 2750 50  0001 C CNN
 	1    4350 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D?
+L D_Schottky D2
 U 1 1 59E7A526
 P 4350 3900
-F 0 "D?" H 4350 4000 50  0000 C CNN
+F 0 "D2" H 4350 4000 50  0000 C CNN
 F 1 "D_Schottky" H 4350 3800 50  0000 C CNN
-F 2 "" H 4350 3900 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 4350 3900 50  0001 C CNN
 F 3 "" H 4350 3900 50  0001 C CNN
 	1    4350 3900
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D?
+L D_Schottky D3
 U 1 1 59E7A56E
 P 5450 2750
-F 0 "D?" H 5450 2850 50  0000 C CNN
+F 0 "D3" H 5450 2850 50  0000 C CNN
 F 1 "D_Schottky" H 5450 2650 50  0000 C CNN
-F 2 "" H 5450 2750 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 5450 2750 50  0001 C CNN
 F 3 "" H 5450 2750 50  0001 C CNN
 	1    5450 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D?
+L D_Schottky D4
 U 1 1 59E7A5B1
 P 5450 3900
-F 0 "D?" H 5450 4000 50  0000 C CNN
+F 0 "D4" H 5450 4000 50  0000 C CNN
 F 1 "D_Schottky" H 5450 3800 50  0000 C CNN
-F 2 "" H 5450 3900 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 5450 3900 50  0001 C CNN
 F 3 "" H 5450 3900 50  0001 C CNN
 	1    5450 3900
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L C Cr1
 U 1 1 59E7A649
 P 3900 3000
-F 0 "C?" H 3925 3100 50  0000 L CNN
+F 0 "Cr1" H 3925 3100 50  0000 L CNN
 F 1 "C" H 3925 2900 50  0000 L CNN
-F 2 "" H 3938 2850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 3938 2850 50  0001 C CNN
 F 3 "" H 3900 3000 50  0001 C CNN
 	1    3900 3000
 	0    1    1    0   
 $EndComp
 $Comp
-L Screw_Terminal_1x02 J?
+L Screw_Terminal_1x02 J1
 U 1 1 59E7A6B3
 P 2950 3300
-F 0 "J?" H 2950 3550 50  0000 C TNN
+F 0 "J1" H 2950 3550 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 2800 3300 50  0000 C TNN
-F 2 "" H 2950 3075 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 2950 3075 50  0001 C CNN
 F 3 "" H 2925 3300 50  0001 C CNN
 	1    2950 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C Cf1
 U 1 1 59E7A7AC
 P 6150 3300
-F 0 "C?" H 6175 3400 50  0000 L CNN
+F 0 "Cf1" H 6175 3400 50  0000 L CNN
 F 1 "C" H 6175 3200 50  0000 L CNN
-F 2 "" H 6188 3150 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 6188 3150 50  0001 C CNN
 F 3 "" H 6150 3300 50  0001 C CNN
 	1    6150 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM7812CT U?
+L LM7812CT U1
 U 1 1 59E7A939
 P 6850 2550
-F 0 "U?" H 6650 2750 50  0000 C CNN
+F 0 "U1" H 6650 2750 50  0000 C CNN
 F 1 "LM7812CT" H 6850 2750 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 6850 2650 50  0001 C CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6850 2650 50  0001 C CIN
 F 3 "" H 6850 2550 50  0001 C CNN
 	1    6850 2550
 	1    0    0    -1  
@@ -167,12 +168,12 @@ Wire Wire Line
 	6850 4150 6850 2800
 Connection ~ 6150 4150
 $Comp
-L Screw_Terminal_1x02 J?
+L Screw_Terminal_1x02 J2
 U 1 1 59E7AA22
 P 7600 3250
-F 0 "J?" H 7600 3500 50  0000 C TNN
+F 0 "J2" H 7600 3500 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 7450 3250 50  0000 C TNN
-F 2 "" H 7600 3025 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7600 3025 50  0001 C CNN
 F 3 "" H 7575 3250 50  0001 C CNN
 	1    7600 3250
 	-1   0    0    1   
