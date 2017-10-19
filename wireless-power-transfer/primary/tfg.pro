@@ -1,4 +1,4 @@
-update=18/10/2017 20:23:33
+update=19/10/2017 20:26:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,6 +20,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=C:/Users/Santiago/Documents/TFG SDVP/placa/componentes
@@ -60,8 +65,4 @@ LibName33=componentes/pickit3
 LibName34=componentes/r-78exx
 LibName35=switches
 LibName36=xbee_wi-fi
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
+LibName37=componentes/irlb8721pbf
