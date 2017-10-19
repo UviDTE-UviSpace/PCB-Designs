@@ -507,7 +507,7 @@ F 1 "Screw_Terminal_1x02" V 5950 1450 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 6100 1225 50  0001 C CNN
 F 3 "" H 6075 1450 50  0001 C CNN
 	1    6100 1450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6000 1650 5800 1650
