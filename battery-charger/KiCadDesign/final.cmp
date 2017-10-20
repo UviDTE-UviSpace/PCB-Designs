@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mér 20 Mai 2015 18:53:15 CEST
+
+BeginCmp
+TimeStamp = /551BBF37;
+Reference = BAT1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A7CB4;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A7CA5;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBC8E;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBEB1;
+Reference = IN1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BBFC2;
+Reference = LED1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BC05B;
+Reference = LED2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A7A66;
+Reference = Q1;
+ValeurCmp = MOSFET_P;
+IdModule  = TO220GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B604B;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B605B;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A7C59;
+Reference = R3;
+ValeurCmp = 511;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BB6D5;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /551BB6C6;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A7C49;
+Reference = RG1;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B61D6;
+Reference = Rsns1;
+ValeurCmp = 0.12;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A79B8;
+Reference = Rsns2;
+ValeurCmp = 0.15;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B5FED;
+Reference = sel1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B6268;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9281;
+Reference = U1;
+ValeurCmp = BQ2057W;
+IdModule  = SO8N;
+EndCmp
+
+EndListe
