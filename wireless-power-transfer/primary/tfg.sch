@@ -42,8 +42,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Circuito del primario"
+Date "2017-10-20"
 Rev ""
 Comp ""
 Comment1 ""
@@ -165,7 +165,7 @@ F 3 "" H 750 5800 50  0001 C CNN
 	1    750  5800
 	0    -1   -1   0   
 $EndComp
-Text Label 5800 750  0    60   ~ 0
+Text Label 5800 800  0    60   ~ 0
 +15V
 Text Label 8750 800  0    60   ~ 0
 +3.3V

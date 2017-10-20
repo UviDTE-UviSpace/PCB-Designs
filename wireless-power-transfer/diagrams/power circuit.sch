@@ -1,0 +1,319 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:coupledinductor
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Circuito de potencia"
+Date "2017-10-20"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +24V #PWR1
+U 1 1 59E9BBBD
+P 3400 3200
+F 0 "#PWR1" H 3400 3050 50  0001 C CNN
+F 1 "+24V" H 3400 3340 50  0000 C CNN
+F 2 "" H 3400 3200 50  0001 C CNN
+F 3 "" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q1
+U 1 1 59E9BBD1
+P 2800 3450
+F 0 "Q1" H 3050 3600 50  0000 L CNN
+F 1 "IRFP260N" H 3000 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 3050 3375 50  0001 L CIN
+F 3 "" H 2800 3450 50  0001 L CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q2
+U 1 1 59E9BBF1
+P 2800 4200
+F 0 "Q2" H 3000 4300 50  0000 L CNN
+F 1 "IRFP260N" H 3000 4100 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 3050 4125 50  0001 L CIN
+F 3 "" H 2800 4200 50  0001 L CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q3
+U 1 1 59E9BC13
+P 3950 3450
+F 0 "Q3" H 3750 3600 50  0000 L CNN
+F 1 "IRFP260N" H 3600 3250 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4200 3375 50  0001 L CIN
+F 3 "" H 3950 3450 50  0001 L CNN
+	1    3950 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q4
+U 1 1 59E9BC4A
+P 3950 4200
+F 0 "Q4" H 3850 4350 50  0000 L CNN
+F 1 "IRFP260N" H 3650 4000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4200 4125 50  0001 L CIN
+F 3 "" H 3950 4200 50  0001 L CNN
+	1    3950 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3250 2900 3200
+Wire Wire Line
+	2900 4400 2900 4450
+Wire Wire Line
+	2900 3650 2900 4000
+Wire Wire Line
+	3850 3200 3850 3250
+Wire Wire Line
+	3850 4450 3850 4400
+Wire Wire Line
+	3850 3650 3850 4000
+$Comp
+L L Lf
+U 1 1 59E9C233
+P 4700 3600
+F 0 "Lf" V 4650 3600 50  0000 C CNN
+F 1 "L" V 4775 3600 50  0000 C CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C Cf
+U 1 1 59E9C26E
+P 5200 3600
+F 0 "Cf" H 5225 3700 50  0000 L CNN
+F 1 "C" H 5225 3500 50  0000 L CNN
+F 2 "" H 5238 3450 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C Cr
+U 1 1 59E9C301
+P 5650 3950
+F 0 "Cr" H 5675 4050 50  0000 L CNN
+F 1 "C" H 5675 3850 50  0000 L CNN
+F 2 "" H 5688 3800 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoupledInductor T1
+U 1 1 59E9C787
+P 6100 4150
+F 0 "T1" H 6200 4100 60  0000 C CNN
+F 1 "CoupledInductor" H 6250 4800 60  0000 C CNN
+F 2 "" H 6100 4150 60  0001 C CNN
+F 3 "" H 6100 4150 60  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3750 4400 3750
+Wire Wire Line
+	4400 3750 4400 3600
+Wire Wire Line
+	4400 3600 4550 3600
+Connection ~ 3850 3750
+Wire Wire Line
+	4850 3600 5050 3600
+Wire Wire Line
+	5350 3600 6100 3600
+Wire Wire Line
+	5650 3600 5650 3800
+Wire Wire Line
+	2900 3950 4400 3950
+Wire Wire Line
+	4400 3950 4400 4200
+Wire Wire Line
+	4400 4200 6100 4200
+Wire Wire Line
+	5650 4200 5650 4100
+Connection ~ 2900 3950
+Wire Wire Line
+	6100 4200 6100 4100
+Connection ~ 5650 4200
+Wire Wire Line
+	6100 3600 6100 3800
+Connection ~ 5650 3600
+$Comp
+L C Cr2
+U 1 1 59E9CA09
+P 6800 3650
+F 0 "Cr2" H 6825 3750 50  0000 L CNN
+F 1 "C" H 6825 3550 50  0000 L CNN
+F 2 "" H 6838 3500 50  0001 C CNN
+F 3 "" H 6800 3650 50  0001 C CNN
+	1    6800 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 3800 6300 3650
+Wire Wire Line
+	6300 3650 6650 3650
+$Comp
+L D_Schottky D1
+U 1 1 59E9CBDB
+P 7250 3350
+F 0 "D1" H 7250 3450 50  0000 C CNN
+F 1 "D_Schottky" H 7250 3250 50  0000 C CNN
+F 2 "" H 7250 3350 50  0001 C CNN
+F 3 "" H 7250 3350 50  0001 C CNN
+	1    7250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 59E9CC42
+P 7250 4350
+F 0 "D2" H 7250 4450 50  0000 C CNN
+F 1 "D_Schottky" H 7250 4250 50  0000 C CNN
+F 2 "" H 7250 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 59E9CC9B
+P 7700 3350
+F 0 "D3" H 7700 3450 50  0000 C CNN
+F 1 "D_Schottky" H 7700 3250 50  0000 C CNN
+F 2 "" H 7700 3350 50  0001 C CNN
+F 3 "" H 7700 3350 50  0001 C CNN
+	1    7700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D4
+U 1 1 59E9CCF5
+P 7700 4350
+F 0 "D4" H 7700 4450 50  0000 C CNN
+F 1 "D_Schottky" H 7700 4250 50  0000 C CNN
+F 2 "" H 7700 4350 50  0001 C CNN
+F 3 "" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L C Cf2
+U 1 1 59E9CD46
+P 8100 3900
+F 0 "Cf2" H 8125 4000 50  0000 L CNN
+F 1 "C" H 8125 3800 50  0000 L CNN
+F 2 "" H 8138 3750 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    8100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3500 7250 4200
+Wire Wire Line
+	7700 3500 7700 4200
+Wire Wire Line
+	7250 3200 7250 3100
+Wire Wire Line
+	7250 3100 8600 3100
+Wire Wire Line
+	7700 3100 7700 3200
+Wire Wire Line
+	7250 4500 7250 4600
+Wire Wire Line
+	7250 4600 8600 4600
+Wire Wire Line
+	7700 4600 7700 4500
+Wire Wire Line
+	6950 3650 7250 3650
+Connection ~ 7250 3650
+Wire Wire Line
+	6300 4100 6300 4150
+Wire Wire Line
+	6300 4150 7700 4150
+Connection ~ 7700 4150
+Wire Wire Line
+	8100 3100 8100 3750
+Connection ~ 7700 3100
+Wire Wire Line
+	8100 4600 8100 4050
+Connection ~ 7700 4600
+$Comp
+L Battery BT1
+U 1 1 59E9CF4F
+P 8600 3900
+F 0 "BT1" H 8700 4000 50  0000 L CNN
+F 1 "Battery" H 8700 3900 50  0000 L CNN
+F 2 "" V 8600 3960 50  0001 C CNN
+F 3 "" V 8600 3960 50  0001 C CNN
+	1    8600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3100 8600 3700
+Connection ~ 8100 3100
+Wire Wire Line
+	8600 4600 8600 4100
+Connection ~ 8100 4600
+Wire Wire Line
+	2900 3200 3850 3200
+Connection ~ 3400 3200
+$Comp
+L Earth #PWR?
+U 1 1 59E9E3D4
+P 3400 4450
+F 0 "#PWR?" H 3400 4200 50  0001 C CNN
+F 1 "Earth" H 3400 4300 50  0001 C CNN
+F 2 "" H 3400 4450 50  0001 C CNN
+F 3 "" H 3400 4450 50  0001 C CNN
+	1    3400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4450 3850 4450
+Connection ~ 3400 4450
+$EndSCHEMATC
