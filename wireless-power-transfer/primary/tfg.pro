@@ -1,4 +1,4 @@
-update=19/10/2017 20:26:57
+update=20/10/2017 15:20:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,13 @@ LibName34=componentes/r-78exx
 LibName35=switches
 LibName36=xbee_wi-fi
 LibName37=componentes/irlb8721pbf
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/Santiago/Documents/TFG SDVP/GIT/pcb-designs/wireless-power-transfer/sheet template.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
