@@ -1,8 +1,24 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AQV252G
+D SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA
+K MOSFET Output Photorelay 1-Form-A
+$ENDCMP
+#
 $CMP BSS84
 D 50V Vds, 130mA , P-Channel MOSFET, 10Ohm
 K P-Channel MOSFET Logic Level
+$ENDCMP
+#
+$CMP SN74LVC1G08DBVR
+D And gate
+K TTL and
+$ENDCMP
+#
+$CMP TLV3691IDCKR
+D Voltage Comparator
+K Comp
+F ns/lm193.pdf
 $ENDCMP
 #
 $CMP bq34z100pw
