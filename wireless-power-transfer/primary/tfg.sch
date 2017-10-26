@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Circuito del primario"
 Date "2017-10-20"
 Rev ""
@@ -262,7 +262,7 @@ Connection ~ 4250 4400
 Wire Wire Line
 	10100 3850 10100 4400
 Wire Wire Line
-	13400 4400 10100 4400
+	10100 4400 13400 4400
 Connection ~ 10100 3850
 Wire Wire Line
 	13300 3150 13400 3150
@@ -880,17 +880,6 @@ NoConn ~ 9950 6450
 NoConn ~ 9950 6850
 NoConn ~ 9950 6950
 NoConn ~ 9950 7050
-$Comp
-L Fuse F?
-U 1 1 59F0EE93
-P 7650 2550
-F 0 "F?" V 7730 2550 50  0000 C CNN
-F 1 "Fuse" V 7575 2550 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 7580 2550 50  0001 C CNN
-F 3 "" H 7650 2550 50  0001 C CNN
-	1    7650 2550
-	0    1    1    0   
-$EndComp
 NoConn ~ 9950 5150
 NoConn ~ 9950 5050
 NoConn ~ 12150 6350
@@ -910,479 +899,6 @@ NoConn ~ 11950 5350
 NoConn ~ 11850 5350
 Text Notes 14950 11050 0    197  ~ 0
 1/3
-Text Label 8900 1500 0    60   ~ 0
-+15V
-Text Label 11850 1500 0    60   ~ 0
-+3.3V
-Text Label 8500 3050 0    60   ~ 0
-+15V
-Text Label 3700 2550 0    60   ~ 0
-+3.3V
-Text Label 3950 6950 0    60   ~ 0
-+3.3V
-Wire Wire Line
-	7400 2100 7400 1950
-Wire Wire Line
-	7400 1950 10300 1950
-Wire Wire Line
-	10300 1950 10300 2100
-Wire Wire Line
-	7400 2500 7400 3300
-Wire Wire Line
-	10300 2500 10300 3300
-Wire Wire Line
-	7400 3700 7400 3850
-Wire Wire Line
-	10300 3850 10300 3700
-Wire Wire Line
-	6050 4050 7100 4050
-Wire Wire Line
-	7100 4050 7100 3550
-Wire Wire Line
-	6050 2250 7100 2250
-Wire Wire Line
-	7100 2250 7100 2350
-Wire Wire Line
-	6050 3450 6750 3450
-Wire Wire Line
-	11600 2250 10600 2250
-Wire Wire Line
-	10600 2250 10600 2350
-Wire Wire Line
-	11600 4050 10600 4050
-Wire Wire Line
-	10600 4050 10600 3550
-Wire Wire Line
-	10900 3450 11600 3450
-Wire Wire Line
-	10300 2850 11600 2850
-Connection ~ 10300 2850
-Wire Wire Line
-	6050 2850 7400 2850
-Connection ~ 7400 2850
-Wire Wire Line
-	11150 2550 11600 2550
-Wire Wire Line
-	6050 2550 6550 2550
-Wire Wire Line
-	6200 2600 6200 2550
-Connection ~ 6200 2550
-Wire Wire Line
-	6200 2800 6200 2850
-Connection ~ 6200 2850
-Wire Wire Line
-	11500 2600 11500 2550
-Connection ~ 11500 2550
-Wire Wire Line
-	11500 2800 11500 2850
-Connection ~ 11500 2850
-Wire Wire Line
-	6550 2550 6550 3000
-Connection ~ 6550 2550
-Wire Wire Line
-	6550 3300 6550 3450
-Connection ~ 6550 3450
-Wire Wire Line
-	11150 3300 11150 3450
-Connection ~ 11150 3450
-Wire Wire Line
-	11150 3000 11150 2550
-Connection ~ 11150 2550
-Wire Wire Line
-	6050 3750 7400 3750
-Connection ~ 7400 3750
-Wire Wire Line
-	11600 3750 10300 3750
-Connection ~ 10300 3750
-Wire Wire Line
-	7500 4400 7500 3850
-Wire Wire Line
-	4250 4400 7500 4400
-Connection ~ 7500 3850
-Wire Wire Line
-	4350 3150 4250 3150
-Wire Wire Line
-	4250 3150 4250 4400
-Connection ~ 4250 4400
-Wire Wire Line
-	10100 3850 10100 4400
-Wire Wire Line
-	13400 4400 10100 4400
-Connection ~ 10100 3850
-Wire Wire Line
-	13300 3150 13400 3150
-Wire Wire Line
-	13400 3150 13400 4400
-Connection ~ 13400 4400
-Wire Wire Line
-	3650 2550 4350 2550
-Wire Wire Line
-	13700 2550 13300 2550
-Wire Wire Line
-	4150 6450 5950 6450
-Wire Wire Line
-	4150 6450 4150 2850
-Wire Wire Line
-	4150 2850 4350 2850
-Wire Wire Line
-	4300 6550 5950 6550
-Wire Wire Line
-	4300 6550 4300 3450
-Wire Wire Line
-	4300 3450 4350 3450
-Wire Wire Line
-	5750 6550 5750 4600
-Wire Wire Line
-	5750 4600 13600 4600
-Wire Wire Line
-	13600 4600 13600 2850
-Wire Wire Line
-	13600 2850 13300 2850
-Connection ~ 5750 6550
-Wire Wire Line
-	5600 6450 5600 4500
-Wire Wire Line
-	5600 4500 13350 4500
-Wire Wire Line
-	13350 4500 13350 3450
-Wire Wire Line
-	13350 3450 13300 3450
-Connection ~ 5600 6450
-Wire Wire Line
-	5950 7850 5750 7850
-Wire Wire Line
-	5100 7950 5950 7950
-Connection ~ 5750 7950
-Wire Wire Line
-	4050 7200 4450 7200
-Wire Wire Line
-	4450 7200 4450 5350
-Wire Wire Line
-	4450 5350 5950 5350
-Wire Wire Line
-	4050 7300 4550 7300
-Wire Wire Line
-	4550 7300 4550 5050
-Wire Wire Line
-	4550 5050 5950 5050
-Wire Wire Line
-	5950 5150 4550 5150
-Connection ~ 4550 5150
-Connection ~ 5750 7850
-Wire Wire Line
-	9950 5650 10600 5650
-Wire Wire Line
-	10600 5650 10600 7200
-Wire Wire Line
-	10600 7200 10000 7200
-Wire Wire Line
-	10000 7200 10000 8400
-Wire Wire Line
-	10000 8400 4300 8400
-Wire Wire Line
-	4300 8400 4300 7600
-Wire Wire Line
-	4300 7600 4050 7600
-Wire Wire Line
-	4050 7500 4450 7500
-Wire Wire Line
-	4450 7500 4450 8300
-Wire Wire Line
-	4450 8300 9900 8300
-Wire Wire Line
-	9900 8300 9900 7100
-Wire Wire Line
-	9900 7100 10500 7100
-Wire Wire Line
-	10500 7100 10500 5750
-Wire Wire Line
-	10500 5750 9950 5750
-Wire Wire Line
-	3650 6950 4550 6950
-Wire Wire Line
-	3750 6500 3750 6850
-Wire Wire Line
-	3750 6850 3900 6850
-Wire Wire Line
-	3900 6850 3900 6950
-Connection ~ 3900 6950
-Connection ~ 3750 6750
-Connection ~ 7500 1950
-Wire Wire Line
-	9700 2050 9700 3850
-Connection ~ 9700 3850
-Wire Wire Line
-	6750 3450 6750 3050
-Wire Wire Line
-	6750 3050 10900 3050
-Connection ~ 8400 1450
-Wire Wire Line
-	10900 3050 10900 3450
-Connection ~ 8400 3050
-Wire Wire Line
-	13700 1400 13700 2550
-Wire Wire Line
-	4050 1250 11550 1250
-Wire Wire Line
-	4050 1250 4050 2550
-Wire Wire Line
-	3650 2550 3650 6950
-Connection ~ 4050 2550
-Connection ~ 4550 6950
-Wire Wire Line
-	5100 4400 5100 7950
-Connection ~ 5100 4400
-Connection ~ 5100 7400
-Wire Wire Line
-	3950 6500 5100 6500
-Connection ~ 5100 6500
-Wire Wire Line
-	3950 6750 5100 6750
-Connection ~ 5100 6750
-Wire Wire Line
-	7150 1850 7500 1850
-Wire Wire Line
-	7500 1850 7500 1950
-Wire Wire Line
-	8450 1450 8300 1450
-Wire Wire Line
-	10100 1900 10100 2050
-Connection ~ 10100 2050
-Wire Wire Line
-	10100 2050 9700 2050
-Wire Wire Line
-	9650 1500 8450 1500
-Wire Wire Line
-	8450 1500 8450 1450
-Wire Wire Line
-	10200 2500 10200 2600
-Wire Wire Line
-	10200 2600 10300 2600
-Connection ~ 10300 2600
-Connection ~ 7400 2550
-Wire Wire Line
-	9850 3350 9850 1950
-Wire Wire Line
-	9400 3350 9850 3350
-Connection ~ 9850 1950
-NoConn ~ 4050 7700
-NoConn ~ 5950 5550
-NoConn ~ 5950 5650
-NoConn ~ 5950 5750
-NoConn ~ 5950 5850
-NoConn ~ 5950 5950
-NoConn ~ 5950 6050
-NoConn ~ 5950 6150
-NoConn ~ 5950 6250
-NoConn ~ 5950 6950
-NoConn ~ 5950 7050
-NoConn ~ 5950 7150
-NoConn ~ 9950 5350
-NoConn ~ 9950 5550
-NoConn ~ 9950 5950
-NoConn ~ 9950 6050
-NoConn ~ 9950 6150
-NoConn ~ 9950 6250
-NoConn ~ 9950 6350
-NoConn ~ 9950 6450
-NoConn ~ 9950 6850
-NoConn ~ 9950 6950
-NoConn ~ 9950 7050
-Wire Wire Line
-	4350 3750 4350 4400
-Connection ~ 4350 4400
-Wire Wire Line
-	13300 3750 13300 4400
-Connection ~ 13300 4400
-Wire Wire Line
-	7400 1450 7150 1450
-Wire Wire Line
-	7150 1450 7150 1850
-Connection ~ 7300 1450
-Wire Wire Line
-	7300 1750 7600 1750
-Wire Wire Line
-	7600 1750 7600 1900
-Wire Wire Line
-	7600 1900 8250 1900
-Connection ~ 7850 1900
-Wire Wire Line
-	8350 1450 8350 1500
-Wire Wire Line
-	8350 1500 8250 1500
-Wire Wire Line
-	8250 1500 8250 1550
-Connection ~ 8350 1450
-Wire Wire Line
-	8250 1900 8250 1850
-Wire Wire Line
-	10600 1500 10600 1600
-Connection ~ 10600 1500
-Wire Wire Line
-	10600 1900 10100 1900
-Wire Wire Line
-	8850 3450 8850 3550
-Wire Wire Line
-	8850 3350 9000 3350
-Wire Wire Line
-	8850 3500 9000 3500
-Wire Wire Line
-	9000 3500 9000 3850
-Connection ~ 8850 3500
-Connection ~ 9000 3850
-Connection ~ 9000 3550
-Wire Wire Line
-	9400 3450 9400 3350
-Wire Wire Line
-	7500 3850 10100 3850
-Wire Wire Line
-	7400 3850 10300 3850
-Wire Wire Line
-	7850 1850 7850 3850
-Connection ~ 7850 3850
-Wire Wire Line
-	10550 1500 11350 1500
-$Comp
-L Fuse F?
-U 1 1 59F0FEA5
-P 7650 2550
-F 0 "F?" V 7730 2550 50  0000 C CNN
-F 1 "Fuse" V 7575 2550 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 7580 2550 50  0001 C CNN
-F 3 "" H 7650 2550 50  0001 C CNN
-	1    7650 2550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7400 2550 7500 2550
-Wire Wire Line
-	11350 1400 13700 1400
-Wire Wire Line
-	11550 1250 11550 1400
-Connection ~ 11550 1400
-Wire Wire Line
-	11350 1500 11350 1400
-Wire Wire Line
-	4050 7400 5100 7400
-Wire Wire Line
-	5750 7850 5750 7950
-Wire Wire Line
-	5600 6750 5650 6750
-Wire Wire Line
-	5650 6750 5650 6650
-Wire Wire Line
-	5650 6650 5950 6650
-NoConn ~ 9950 5150
-NoConn ~ 9950 5050
-Wire Wire Line
-	5600 7200 5700 7200
-Wire Wire Line
-	5700 7200 5700 6750
-Wire Wire Line
-	5700 6750 5950 6750
-Wire Wire Line
-	4550 6650 5200 6650
-Connection ~ 4550 6650
-Wire Wire Line
-	5100 6850 5200 6850
-Connection ~ 5100 6850
-Wire Wire Line
-	4550 7100 5200 7100
-Connection ~ 4550 7100
-Wire Wire Line
-	5100 7300 5200 7300
-Connection ~ 5100 7300
-Wire Wire Line
-	11450 6400 11850 6400
-Wire Wire Line
-	11850 6400 11850 6350
-Wire Wire Line
-	11450 4700 11450 6400
-Wire Wire Line
-	5100 4650 13050 4650
-Wire Wire Line
-	13050 4650 13050 6400
-Wire Wire Line
-	13050 6400 12750 6400
-Wire Wire Line
-	12750 6400 12750 6350
-Connection ~ 5100 4650
-Wire Wire Line
-	11950 6350 11950 6650
-Wire Wire Line
-	11950 6650 9950 6650
-Wire Wire Line
-	12050 6350 12050 6550
-Wire Wire Line
-	12050 6550 9950 6550
-Wire Wire Line
-	3650 4700 11450 4700
-Connection ~ 3650 4700
-Wire Wire Line
-	12250 6350 12250 6850
-Wire Wire Line
-	12250 6850 10950 6850
-Wire Wire Line
-	10950 6850 10950 4800
-Wire Wire Line
-	10950 4800 5850 4800
-Wire Wire Line
-	5850 4800 5850 6850
-Wire Wire Line
-	5850 6850 5950 6850
-NoConn ~ 12150 6350
-NoConn ~ 12350 6350
-NoConn ~ 12450 6350
-NoConn ~ 12550 6350
-NoConn ~ 12650 6350
-NoConn ~ 12750 5350
-NoConn ~ 12650 5350
-NoConn ~ 12550 5350
-NoConn ~ 12450 5350
-NoConn ~ 12350 5350
-NoConn ~ 12250 5350
-NoConn ~ 12150 5350
-NoConn ~ 12050 5350
-NoConn ~ 11950 5350
-NoConn ~ 11850 5350
-Wire Wire Line
-	9950 5250 9950 5200
-Wire Wire Line
-	9950 5450 10000 5450
-Wire Wire Line
-	10000 5450 10000 5500
-Wire Wire Line
-	10850 5500 10850 5200
-Wire Wire Line
-	10850 5300 11650 5300
-Wire Wire Line
-	11650 5300 11650 4650
-Connection ~ 11650 4650
-Connection ~ 10850 5300
-Wire Wire Line
-	9950 5200 10100 5200
-Wire Wire Line
-	10400 5200 10500 5200
-Wire Wire Line
-	10500 5500 10400 5500
-Wire Wire Line
-	10000 5500 10100 5500
-Wire Wire Line
-	10850 5200 10800 5200
-Wire Wire Line
-	10800 5500 10850 5500
-Text Notes 14950 11050 0    197  ~ 0
-1/3
-Wire Wire Line
-	8400 3050 8400 1450
-Wire Wire Line
-	7800 2550 9100 2550
-Wire Wire Line
-	9100 2550 9100 2350
-Wire Wire Line
-	9300 2350 9300 2500
-Wire Wire Line
-	9300 2500 10200 2500
 Text Label 8900 1500 0    60   ~ 0
 +15V
 Text Label 11850 1500 0    60   ~ 0
@@ -1416,17 +932,58 @@ NoConn ~ 9950 6450
 NoConn ~ 9950 6850
 NoConn ~ 9950 6950
 NoConn ~ 9950 7050
-$Comp
-L Fuse F?
-U 1 1 59F0FEC3
-P 7650 2550
-F 0 "F?" V 7730 2550 50  0000 C CNN
-F 1 "Fuse" V 7575 2550 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 7580 2550 50  0001 C CNN
-F 3 "" H 7650 2550 50  0001 C CNN
-	1    7650 2550
-	0    1    1    0   
-$EndComp
+NoConn ~ 9950 5150
+NoConn ~ 9950 5050
+NoConn ~ 12150 6350
+NoConn ~ 12350 6350
+NoConn ~ 12450 6350
+NoConn ~ 12550 6350
+NoConn ~ 12650 6350
+NoConn ~ 12750 5350
+NoConn ~ 12650 5350
+NoConn ~ 12550 5350
+NoConn ~ 12450 5350
+NoConn ~ 12350 5350
+NoConn ~ 12250 5350
+NoConn ~ 12150 5350
+NoConn ~ 12050 5350
+NoConn ~ 11950 5350
+NoConn ~ 11850 5350
+Text Notes 14950 11050 0    197  ~ 0
+1/3
+Text Label 8900 1500 0    60   ~ 0
++15V
+Text Label 11850 1500 0    60   ~ 0
++3.3V
+Text Label 8500 3050 0    60   ~ 0
++15V
+Text Label 3700 2550 0    60   ~ 0
++3.3V
+Text Label 3950 6950 0    60   ~ 0
++3.3V
+NoConn ~ 4050 7700
+NoConn ~ 5950 5550
+NoConn ~ 5950 5650
+NoConn ~ 5950 5750
+NoConn ~ 5950 5850
+NoConn ~ 5950 5950
+NoConn ~ 5950 6050
+NoConn ~ 5950 6150
+NoConn ~ 5950 6250
+NoConn ~ 5950 6950
+NoConn ~ 5950 7050
+NoConn ~ 5950 7150
+NoConn ~ 9950 5350
+NoConn ~ 9950 5550
+NoConn ~ 9950 5950
+NoConn ~ 9950 6050
+NoConn ~ 9950 6150
+NoConn ~ 9950 6250
+NoConn ~ 9950 6350
+NoConn ~ 9950 6450
+NoConn ~ 9950 6850
+NoConn ~ 9950 6950
+NoConn ~ 9950 7050
 NoConn ~ 9950 5150
 NoConn ~ 9950 5050
 NoConn ~ 12150 6350
@@ -1457,4 +1014,10 @@ F 3 "" H 9175 2150 50  0001 C CNN
 	1    9200 2150
 	0    -1   1    0   
 $EndComp
+$Sheet
+S 16950 0    8050 11650
+U 59F19A9A
+F0 "tank" 60
+F1 "tank.sch" 60
+$EndSheet
 $EndSCHEMATC
