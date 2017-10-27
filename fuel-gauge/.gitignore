@@ -12,6 +12,9 @@ _autosave-*
 # Netlist files (exported from Eeschema)
 *.net
 
+#Electrical rules analisis files
+*.erc
+
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
