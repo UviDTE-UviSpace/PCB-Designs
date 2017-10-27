@@ -115,7 +115,7 @@ U 1 1 59E7A7AC
 P 6350 3100
 F 0 "Cf1" H 6375 3200 50  0000 L CNN
 F 1 "C" H 6375 3000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 6388 2950 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 6388 2950 50  0001 C CNN
 F 3 "" H 6350 3100 50  0001 C CNN
 	1    6350 3100
 	1    0    0    -1  
@@ -132,7 +132,7 @@ F 3 "" H 7050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 3550 4550 2700
+	4550 2700 4550 3550
 Wire Wire Line
 	5650 2700 5650 3550
 Wire Wire Line
@@ -170,19 +170,23 @@ Connection ~ 6350 3950
 $Comp
 L Screw_Terminal_1x02 J2
 U 1 1 59E7AA22
-P 7800 3050
-F 0 "J2" H 7800 3300 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 7650 3050 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7800 2825 50  0001 C CNN
-F 3 "" H 7775 3050 50  0001 C CNN
-	1    7800 3050
-	-1   0    0    1   
+P 7850 3050
+F 0 "J2" H 7850 3300 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 7700 3050 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7850 2825 50  0001 C CNN
+F 3 "" H 7825 3050 50  0001 C CNN
+	1    7850 3050
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7450 2300 7600 2300
+Connection ~ 7050 3950
 Wire Wire Line
 	7600 2300 7600 2950
 Wire Wire Line
-	7600 3950 7600 3150
-Connection ~ 7050 3950
+	7600 2950 7650 2950
+Wire Wire Line
+	7650 3150 7600 3150
+Wire Wire Line
+	7600 3150 7600 3950
 $EndSCHEMATC
