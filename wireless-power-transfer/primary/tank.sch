@@ -98,12 +98,12 @@ $EndComp
 $Comp
 L Screw_Terminal_1x02 Jr1
 U 1 1 59F1B13E
-P 7600 3650
-F 0 "Jr1" H 7600 3900 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 7450 3650 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7600 3425 50  0001 C CNN
-F 3 "" H 7575 3650 50  0001 C CNN
-	1    7600 3650
+P 7650 3300
+F 0 "Jr1" H 7650 3550 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 7500 3300 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7650 3075 50  0001 C CNN
+F 3 "" H 7625 3300 50  0001 C CNN
+	1    7650 3300
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -116,10 +116,6 @@ Wire Wire Line
 	6000 3300 7400 3300
 Wire Wire Line
 	6450 3300 6450 3600
-Wire Wire Line
-	7400 3300 7400 3550
-Wire Wire Line
-	7400 3900 7400 3750
 Wire Wire Line
 	4700 3900 7400 3900
 Connection ~ 6450 3300
@@ -185,4 +181,29 @@ Wire Wire Line
 Wire Wire Line
 	5600 3650 5600 3300
 Connection ~ 5600 3300
+Wire Wire Line
+	7400 3200 7400 3400
+Wire Wire Line
+	7400 3200 7450 3200
+Wire Wire Line
+	7400 3400 7450 3400
+Connection ~ 7400 3300
+$Comp
+L Screw_Terminal_1x02 Jr2
+U 1 1 59F74076
+P 7675 3900
+F 0 "Jr2" H 7675 4150 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 7525 3900 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7675 3675 50  0001 C CNN
+F 3 "" H 7650 3900 50  0001 C CNN
+	1    7675 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3800 7400 4000
+Wire Wire Line
+	7400 3800 7475 3800
+Wire Wire Line
+	7400 4000 7475 4000
+Connection ~ 7400 3900
 $EndSCHEMATC
