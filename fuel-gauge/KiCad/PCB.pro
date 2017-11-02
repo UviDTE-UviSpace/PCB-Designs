@@ -1,19 +1,9 @@
-update=02/11/2017 9:36:37
+update=02/11/2017 16:07:20
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../TFG/Planos/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -68,5 +58,15 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=component-library/schematics/myLib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../TFG/Planos/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
