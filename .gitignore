@@ -22,3 +22,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+#PDFs printing directory
+**/FabricationOutputs
