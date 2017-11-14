@@ -763,10 +763,9 @@ Wire Wire Line
 Wire Wire Line
 	2360 2640 2360 5205
 Wire Wire Line
-	2160 5105 2160 2640
-Connection ~ 2360 5205
+	2160 2640 2160 5105
 Wire Wire Line
-	1450 5105 2160 5105
+	2160 5105 1450 5105
 Connection ~ 5800 3095
 Wire Wire Line
 	5800 1350 5715 1350
@@ -856,9 +855,7 @@ Wire Wire Line
 Wire Wire Line
 	5625 4605 4375 4605
 Wire Wire Line
-	1450 5205 2775 5205
-Wire Wire Line
-	2775 5205 2775 2705
+	2360 5205 1450 5205
 Connection ~ 5225 5955
 Wire Wire Line
 	1450 5405 5075 5405
@@ -957,7 +954,7 @@ Connection ~ 3325 2705
 Wire Wire Line
 	3325 3055 3325 2705
 Wire Wire Line
-	2775 2705 5375 2705
+	2160 2705 5375 2705
 Wire Wire Line
 	3975 2705 3975 2855
 Wire Wire Line
@@ -971,4 +968,7 @@ Wire Wire Line
 Wire Wire Line
 	9690 2240 9690 2125
 NoConn ~ 9785 2040
+Wire Wire Line
+	2160 2705 2160 2710
+Connection ~ 2160 2710
 $EndSCHEMATC
