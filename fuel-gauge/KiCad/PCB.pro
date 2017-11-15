@@ -1,4 +1,4 @@
-update=14/11/2017 17:55:35
+update=15/11/2017 12:46:09
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,16 +23,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../TFG/Planos/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=component-library/schematics
@@ -67,5 +57,15 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=component-library/schematics/myLib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../TFG/Planos/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
