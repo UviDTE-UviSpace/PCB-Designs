@@ -389,20 +389,9 @@ Text GLabel 8335 3005 2    60   Input ~ 0
 REG_IN
 Text GLabel 4975 4705 0    60   Input ~ 0
 REG_IN
-$Comp
-L THERMISTOR TH1
-U 1 1 59163373
-P 7325 4755
-F 0 "TH1" V 7425 4805 50  0000 C CNN
-F 1 "10K" V 7225 4755 50  0000 C BNN
-F 2 "footprint:Thermistor" H 7325 4755 60  0001 C CNN
-F 3 "" H 7325 4755 60  0000 C CNN
-	1    7325 4755
-	0    1    1    0   
-$EndComp
 Text GLabel 5525 5105 0    60   Input ~ 0
 REG_25
-Text GLabel 7675 4755 2    60   Input ~ 0
+Text GLabel 7345 4605 2    60   Input ~ 0
 REG_25
 Text Label 9525 4305 0    60   ~ 0
 SDA
@@ -816,12 +805,10 @@ Wire Wire Line
 Wire Wire Line
 	5375 5305 5375 5555
 Wire Wire Line
-	7675 4755 7575 4755
+	7345 4605 7245 4605
 Connection ~ 5625 5105
 Wire Wire Line
-	7075 4605 6625 4605
-Wire Wire Line
-	7075 4755 7075 4605
+	6625 4605 7145 4605
 Connection ~ 5075 4705
 Wire Wire Line
 	7670 3005 7675 3005
@@ -971,4 +958,15 @@ NoConn ~ 9785 2040
 Wire Wire Line
 	2160 2705 2160 2710
 Connection ~ 2160 2710
+$Comp
+L CONN_01X02 P4
+U 1 1 5A0C89B9
+P 7195 4805
+F 0 "P4" H 7195 4955 50  0000 C CNN
+F 1 "CONN_01X02" V 7295 4805 50  0000 C CNN
+F 2 "footprint:CONN_01X02" H 7195 4805 60  0001 C CNN
+F 3 "" H 7195 4805 60  0000 C CNN
+	1    7195 4805
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

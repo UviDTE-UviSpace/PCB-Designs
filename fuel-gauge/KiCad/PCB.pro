@@ -1,4 +1,4 @@
-update=15/11/2017 15:19:52
+update=16/11/2017 12:19:27
 version=1
 last_client=kicad
 [cvpcb]
@@ -60,7 +60,7 @@ LibName30=component-library/schematics/myLib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../TFG/Planos/
+PlotDirectoryName=FabricationOutputs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
