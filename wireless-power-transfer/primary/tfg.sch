@@ -733,15 +733,9 @@ Wire Wire Line
 	5100 7950 5950 7950
 Connection ~ 5750 7950
 Wire Wire Line
-	4050 7200 4450 7200
-Wire Wire Line
-	4450 7200 4450 5350
-Wire Wire Line
 	4450 5350 5950 5350
 Wire Wire Line
-	4050 7300 4550 7300
-Wire Wire Line
-	4550 7300 4550 5050
+	4550 5050 4550 7300
 Wire Wire Line
 	4550 5050 5950 5050
 Wire Wire Line
@@ -788,7 +782,7 @@ Connection ~ 3900 6950
 Connection ~ 3750 6750
 Connection ~ 7500 1950
 Wire Wire Line
-	9700 2050 9700 3850
+	9700 3850 9700 2050
 Connection ~ 9700 3850
 Wire Wire Line
 	6750 3450 6750 3050
@@ -823,7 +817,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1850 7500 1950
 Wire Wire Line
-	8450 1450 8300 1450
+	8300 1450 8450 1450
 Wire Wire Line
 	10100 1900 10100 2050
 Connection ~ 10100 2050
@@ -851,7 +845,7 @@ Wire Wire Line
 	13300 3750 13300 4400
 Connection ~ 13300 4400
 Wire Wire Line
-	7400 1450 7150 1450
+	7150 1450 7400 1450
 Wire Wire Line
 	7150 1450 7150 1850
 Connection ~ 7300 1450
@@ -890,9 +884,9 @@ Connection ~ 9000 3550
 Wire Wire Line
 	9400 3450 9400 3350
 Wire Wire Line
-	7500 3850 10100 3850
-Wire Wire Line
 	7400 3850 10300 3850
+Wire Wire Line
+	7500 3850 9700 3850
 Wire Wire Line
 	7850 1850 7850 3850
 Connection ~ 7850 3850
@@ -980,7 +974,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 5450 10000 5500
 Wire Wire Line
-	10850 5500 10850 5200
+	10850 5200 10850 5500
 Wire Wire Line
 	10850 5300 11650 5300
 Wire Wire Line
@@ -998,7 +992,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 5200 10800 5200
 Wire Wire Line
-	10800 5500 10850 5500
+	10850 5500 10800 5500
 Wire Wire Line
 	8400 3050 8400 1450
 Wire Wire Line
@@ -1020,4 +1014,29 @@ Wire Wire Line
 	9100 2550 9100 2350
 Wire Wire Line
 	9300 2350 9300 2500
+$Comp
+L R Rpu
+U 1 1 5A0EC076
+P 4300 7125
+F 0 "Rpu" V 4380 7125 50  0000 C CNN
+F 1 "10k" V 4300 7125 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4230 7125 50  0001 C CNN
+F 3 "" H 4300 7125 50  0001 C CNN
+	1    4300 7125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7300 4050 7300
+Wire Wire Line
+	4300 7275 4300 7300
+Connection ~ 4300 7300
+Wire Wire Line
+	4150 6975 4450 6975
+Wire Wire Line
+	4150 6975 4150 7200
+Wire Wire Line
+	4150 7200 4050 7200
+Wire Wire Line
+	4450 6975 4450 5350
+Connection ~ 4300 6975
 $EndSCHEMATC
