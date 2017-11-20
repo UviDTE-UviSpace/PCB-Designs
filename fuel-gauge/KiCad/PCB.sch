@@ -969,4 +969,28 @@ F 3 "" H 7195 4805 60  0000 C CNN
 	1    7195 4805
 	0    1    1    0   
 $EndComp
+$Comp
+L Mounting_Hole MH1
+U 1 1 5A12BF39
+P 10080 5365
+F 0 "MH1" H 10090 5485 50  0000 C CNN
+F 1 "Mounting_Hole" H 10090 5245 50  0000 C CNN
+F 2 "footprint:Mounting_hole" H 10080 5365 60  0001 C CNN
+F 3 "" H 10080 5365 60  0000 C CNN
+	1    10080 5365
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MH2
+U 1 1 5A12C489
+P 10075 5850
+F 0 "MH2" H 10085 5970 50  0000 C CNN
+F 1 "Mounting_Hole" H 10085 5730 50  0000 C CNN
+F 2 "footprint:Mounting_hole" H 10075 5850 60  0001 C CNN
+F 3 "" H 10075 5850 60  0000 C CNN
+	1    10075 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10080 5365
+NoConn ~ 10075 5850
 $EndSCHEMATC
