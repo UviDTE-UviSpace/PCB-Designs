@@ -34,7 +34,6 @@ LIBS:PIC18F45K20-I_PT
 LIBS:pickit3
 LIBS:r-78exx
 LIBS:switches
-LIBS:xbee_wi-fi
 LIBS:irlb8721pbf
 LIBS:tfg-cache
 EELAYER 25 0
@@ -1015,10 +1014,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 2350 9300 2500
 $Comp
-L R Rpu
+L R Rpu1
 U 1 1 5A0EC076
 P 4300 7125
-F 0 "Rpu" V 4380 7125 50  0000 C CNN
+F 0 "Rpu1" V 4380 7125 50  0000 C CNN
 F 1 "10k" V 4300 7125 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4230 7125 50  0001 C CNN
 F 3 "" H 4300 7125 50  0001 C CNN
@@ -1039,4 +1038,14 @@ Wire Wire Line
 Wire Wire Line
 	4450 6975 4450 5350
 Connection ~ 4300 6975
+Text GLabel 8900 2700 0    60   Input ~ 0
+Carga1
+Text GLabel 9400 2700 0    60   Input ~ 0
+Carga0
+Wire Wire Line
+	8900 2700 8900 2550
+Connection ~ 8900 2550
+Wire Wire Line
+	9400 2700 9400 2500
+Connection ~ 9400 2500
 $EndSCHEMATC

@@ -34,7 +34,6 @@ LIBS:PIC18F45K20-I_PT
 LIBS:pickit3
 LIBS:r-78exx
 LIBS:switches
-LIBS:xbee_wi-fi
 LIBS:irlb8721pbf
 LIBS:tfg-cache
 EELAYER 25 0
@@ -206,4 +205,18 @@ Wire Wire Line
 Wire Wire Line
 	7400 4000 7475 4000
 Connection ~ 7400 3900
+Text GLabel 4700 3150 0    60   Input ~ 0
+Carga1
+Text GLabel 4900 4100 0    60   Input ~ 0
+Carga0
+Wire Wire Line
+	4700 3150 4750 3150
+Wire Wire Line
+	4750 3150 4750 3300
+Connection ~ 4750 3300
+Wire Wire Line
+	4900 4100 5000 4100
+Wire Wire Line
+	5000 4100 5000 3900
+Connection ~ 5000 3900
 $EndSCHEMATC
