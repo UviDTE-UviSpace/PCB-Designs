@@ -1,4 +1,4 @@
-update=26/10/2017 17:03:16
+update=27/11/2017 8:17:37
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,8 +37,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Users/Santiago/Documents/TFG SDVP/GIT/pcb-designs/wireless-power-transfer/sheet template.kicad_wks
@@ -68,3 +66,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
