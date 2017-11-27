@@ -1,0 +1,402 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:coupledinductor
+LIBS:power circuit-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Circuito de potencia"
+Date "2017-10-20"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +24V #PWR1
+U 1 1 59E9BBBD
+P 3250 2550
+F 0 "#PWR1" H 3250 2400 50  0001 C CNN
+F 1 "+24V" H 3250 2690 50  0000 C CNN
+F 2 "" H 3250 2550 50  0001 C CNN
+F 3 "" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q1
+U 1 1 59E9BBD1
+P 2650 2800
+F 0 "Q1" H 2900 2950 50  0000 L CNN
+F 1 "IRFP260N" H 2850 2700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2900 2725 50  0001 L CIN
+F 3 "" H 2650 2800 50  0001 L CNN
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q2
+U 1 1 59E9BBF1
+P 2650 3550
+F 0 "Q2" H 2850 3650 50  0000 L CNN
+F 1 "IRFP260N" H 2850 3450 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2900 3475 50  0001 L CIN
+F 3 "" H 2650 3550 50  0001 L CNN
+	1    2650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q3
+U 1 1 59E9BC13
+P 3800 2800
+F 0 "Q3" H 3600 2950 50  0000 L CNN
+F 1 "IRFP260N" H 3450 2600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4050 2725 50  0001 L CIN
+F 3 "" H 3800 2800 50  0001 L CNN
+	1    3800 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF Q4
+U 1 1 59E9BC4A
+P 3800 3550
+F 0 "Q4" H 3700 3700 50  0000 L CNN
+F 1 "IRFP260N" H 3500 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4050 3475 50  0001 L CIN
+F 3 "" H 3800 3550 50  0001 L CNN
+	1    3800 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2600 2750 2550
+Wire Wire Line
+	2750 3750 2750 3800
+Wire Wire Line
+	2750 3000 2750 3350
+Wire Wire Line
+	3700 2550 3700 2600
+Wire Wire Line
+	3700 3800 3700 3750
+Wire Wire Line
+	3700 3000 3700 3350
+$Comp
+L L Lf
+U 1 1 59E9C233
+P 4550 2950
+F 0 "Lf" V 4500 2950 50  0000 C CNN
+F 1 "L" V 4625 2950 50  0000 C CNN
+F 2 "" H 4550 2950 50  0001 C CNN
+F 3 "" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C Cf
+U 1 1 59E9C26E
+P 5050 2950
+F 0 "Cf" H 5075 3050 50  0000 L CNN
+F 1 "C" H 5075 2850 50  0000 L CNN
+F 2 "" H 5088 2800 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C Cr
+U 1 1 59E9C301
+P 5500 3300
+F 0 "Cr" H 5525 3400 50  0000 L CNN
+F 1 "C" H 5525 3200 50  0000 L CNN
+F 2 "" H 5538 3150 50  0001 C CNN
+F 3 "" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoupledInductor T1
+U 1 1 59E9C787
+P 5950 3500
+F 0 "T1" H 6050 3450 60  0000 C CNN
+F 1 "CoupledInductor" H 6100 4150 60  0000 C CNN
+F 2 "" H 5950 3500 60  0001 C CNN
+F 3 "" H 5950 3500 60  0001 C CNN
+	1    5950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3100 4250 3100
+Wire Wire Line
+	4250 3100 4250 2950
+Wire Wire Line
+	4250 2950 4400 2950
+Connection ~ 3700 3100
+Wire Wire Line
+	4700 2950 4900 2950
+Wire Wire Line
+	5200 2950 5950 2950
+Wire Wire Line
+	5500 2950 5500 3150
+Wire Wire Line
+	2750 3300 4250 3300
+Wire Wire Line
+	4250 3300 4250 3550
+Wire Wire Line
+	4250 3550 5950 3550
+Wire Wire Line
+	5500 3550 5500 3450
+Connection ~ 2750 3300
+Wire Wire Line
+	5950 3550 5950 3450
+Connection ~ 5500 3550
+Wire Wire Line
+	5950 2950 5950 3150
+Connection ~ 5500 2950
+$Comp
+L C Cr2
+U 1 1 59E9CA09
+P 6650 3000
+F 0 "Cr2" H 6675 3100 50  0000 L CNN
+F 1 "C" H 6675 2900 50  0000 L CNN
+F 2 "" H 6688 2850 50  0001 C CNN
+F 3 "" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3150 6150 3000
+Wire Wire Line
+	6150 3000 6500 3000
+$Comp
+L D_Schottky D1
+U 1 1 59E9CBDB
+P 7100 2700
+F 0 "D1" H 7100 2800 50  0000 C CNN
+F 1 "D_Schottky" H 7100 2600 50  0000 C CNN
+F 2 "" H 7100 2700 50  0001 C CNN
+F 3 "" H 7100 2700 50  0001 C CNN
+	1    7100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 59E9CC42
+P 7100 3700
+F 0 "D2" H 7100 3800 50  0000 C CNN
+F 1 "D_Schottky" H 7100 3600 50  0000 C CNN
+F 2 "" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 59E9CC9B
+P 7550 2700
+F 0 "D3" H 7550 2800 50  0000 C CNN
+F 1 "D_Schottky" H 7550 2600 50  0000 C CNN
+F 2 "" H 7550 2700 50  0001 C CNN
+F 3 "" H 7550 2700 50  0001 C CNN
+	1    7550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D4
+U 1 1 59E9CCF5
+P 7550 3700
+F 0 "D4" H 7550 3800 50  0000 C CNN
+F 1 "D_Schottky" H 7550 3600 50  0000 C CNN
+F 2 "" H 7550 3700 50  0001 C CNN
+F 3 "" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L C Cf2
+U 1 1 59E9CD46
+P 7950 3250
+F 0 "Cf2" H 7975 3350 50  0000 L CNN
+F 1 "C" H 7975 3150 50  0000 L CNN
+F 2 "" H 7988 3100 50  0001 C CNN
+F 3 "" H 7950 3250 50  0001 C CNN
+	1    7950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2850 7100 3550
+Wire Wire Line
+	7550 2850 7550 3550
+Wire Wire Line
+	7100 2550 7100 2450
+Wire Wire Line
+	7100 2450 8450 2450
+Wire Wire Line
+	7550 2450 7550 2550
+Wire Wire Line
+	7100 3850 7100 3950
+Wire Wire Line
+	7100 3950 8450 3950
+Wire Wire Line
+	7550 3950 7550 3850
+Wire Wire Line
+	6800 3000 7100 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	6150 3450 6150 3500
+Wire Wire Line
+	6150 3500 7550 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	7950 2450 7950 3100
+Connection ~ 7550 2450
+Wire Wire Line
+	7950 3950 7950 3400
+Connection ~ 7550 3950
+$Comp
+L Battery BT1
+U 1 1 59E9CF4F
+P 8450 3250
+F 0 "BT1" H 8550 3350 50  0000 L CNN
+F 1 "Battery" H 8550 3250 50  0000 L CNN
+F 2 "" V 8450 3310 50  0001 C CNN
+F 3 "" V 8450 3310 50  0001 C CNN
+	1    8450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2450 8450 3050
+Connection ~ 7950 2450
+Wire Wire Line
+	8450 3950 8450 3450
+Connection ~ 7950 3950
+Wire Wire Line
+	2750 2550 3700 2550
+Connection ~ 3250 2550
+$Comp
+L Earth #PWR?
+U 1 1 59E9E3D4
+P 3250 3800
+F 0 "#PWR?" H 3250 3550 50  0001 C CNN
+F 1 "Earth" H 3250 3650 50  0001 C CNN
+F 2 "" H 3250 3800 50  0001 C CNN
+F 3 "" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3800 3700 3800
+Connection ~ 3250 3800
+Wire Notes Line
+	2300 2250 2300 4050
+Wire Notes Line
+	2300 4050 4200 4050
+Wire Notes Line
+	4200 4050 4200 2250
+Wire Notes Line
+	4200 2250 2300 2250
+Wire Notes Line
+	4400 2700 4400 3150
+Wire Notes Line
+	4400 3150 5250 3150
+Wire Notes Line
+	5250 3150 5250 2700
+Wire Notes Line
+	5250 2700 4400 2700
+Wire Notes Line
+	5350 3700 6000 3700
+Wire Notes Line
+	5350 3700 5350 2900
+Wire Notes Line
+	5350 2900 6000 2900
+Wire Notes Line
+	6000 2900 6000 3700
+Wire Notes Line
+	6100 2900 6800 2900
+Wire Notes Line
+	6800 2900 6800 3700
+Wire Notes Line
+	6800 3700 6100 3700
+Wire Notes Line
+	6100 3700 6100 2900
+Wire Notes Line
+	5750 2650 5750 3900
+Wire Notes Line
+	5750 3900 6500 3900
+Wire Notes Line
+	6500 3900 6500 2650
+Wire Notes Line
+	6500 2650 5750 2650
+Wire Notes Line
+	6900 2350 6900 4100
+Wire Notes Line
+	6900 4100 7750 4100
+Wire Notes Line
+	7750 4100 7750 2350
+Wire Notes Line
+	7750 2350 6900 2350
+Wire Notes Line
+	7800 2350 7800 4100
+Wire Notes Line
+	7800 4100 8150 4100
+Wire Notes Line
+	8150 4100 8150 2350
+Wire Notes Line
+	8150 2350 7800 2350
+Wire Notes Line
+	8250 2350 8250 4100
+Wire Notes Line
+	8250 4100 8850 4100
+Wire Notes Line
+	8850 4100 8850 2350
+Wire Notes Line
+	8850 2350 8250 2350
+Text Notes 2700 4150 0    60   ~ 0
+Inversor puente completo
+Text Notes 4400 2650 0    60   ~ 0
+Filtro paso banda
+Text Notes 4700 3900 0    60   ~ 0
+Tanque resonante\nparalelo
+Text Notes 5800 4000 0    60   ~ 0
+Transformador
+Text Notes 6350 2250 0    60   ~ 0
+tanque resonante\nserie
+Wire Notes Line
+	6700 2250 6700 2850
+Text Notes 7050 4200 0    60   ~ 0
+Rectificador
+Text Notes 7850 4400 0    60   ~ 0
+Filtro\npaso\nbajo
+Text Notes 8400 4200 0    60   ~ 0
+Batería
+$EndSCHEMATC

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name componentes)(type KiCad)(uri "C:/Users/Santiago/Dropbox (Personal)/TFG SDVP/placa/placa/componentes")(options "")(descr "Componentes de la placa"))
+  (lib (name Conectores)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/modules/Connectors.pretty")(options "")(descr ""))
+  (lib (name componentesGIT)(type KiCad)(uri "C:/Users/Santiago/Documents/TFG SDVP/GIT/pcb-designs/wireless-power-transfer/primary/componentes")(options "")(descr ""))
+)
