@@ -317,4 +317,86 @@ $EndComp
 Wire Wire Line
 	2750 3800 3700 3800
 Connection ~ 3250 3800
+Wire Notes Line
+	2300 2250 2300 4050
+Wire Notes Line
+	2300 4050 4200 4050
+Wire Notes Line
+	4200 4050 4200 2250
+Wire Notes Line
+	4200 2250 2300 2250
+Wire Notes Line
+	4400 2700 4400 3150
+Wire Notes Line
+	4400 3150 5250 3150
+Wire Notes Line
+	5250 3150 5250 2700
+Wire Notes Line
+	5250 2700 4400 2700
+Wire Notes Line
+	5350 3700 6000 3700
+Wire Notes Line
+	5350 3700 5350 2900
+Wire Notes Line
+	5350 2900 6000 2900
+Wire Notes Line
+	6000 2900 6000 3700
+Wire Notes Line
+	6100 2900 6800 2900
+Wire Notes Line
+	6800 2900 6800 3700
+Wire Notes Line
+	6800 3700 6100 3700
+Wire Notes Line
+	6100 3700 6100 2900
+Wire Notes Line
+	5750 2650 5750 3900
+Wire Notes Line
+	5750 3900 6500 3900
+Wire Notes Line
+	6500 3900 6500 2650
+Wire Notes Line
+	6500 2650 5750 2650
+Wire Notes Line
+	6900 2350 6900 4100
+Wire Notes Line
+	6900 4100 7750 4100
+Wire Notes Line
+	7750 4100 7750 2350
+Wire Notes Line
+	7750 2350 6900 2350
+Wire Notes Line
+	7800 2350 7800 4100
+Wire Notes Line
+	7800 4100 8150 4100
+Wire Notes Line
+	8150 4100 8150 2350
+Wire Notes Line
+	8150 2350 7800 2350
+Wire Notes Line
+	8250 2350 8250 4100
+Wire Notes Line
+	8250 4100 8850 4100
+Wire Notes Line
+	8850 4100 8850 2350
+Wire Notes Line
+	8850 2350 8250 2350
+Text Notes 2700 4150 0    60   ~ 0
+Inversor puente completo
+Text Notes 4400 2650 0    60   ~ 0
+Filtro paso banda
+Text Notes 4700 3900 0    60   ~ 0
+Tanque resonante\nparalelo
+Text Notes 5800 4000 0    60   ~ 0
+Transformador
+Text Notes 6350 2250 0    60   ~ 0
+tanque resonante\nserie
+Wire Notes Line
+	6700 2250 6700 2850
+Text Notes 7050 4200 0    60   ~ 0
+Rectificador
+Text Notes 7850 4400 0    60   ~ 0
+Filtro\npaso\nbajo
+Text Notes 8400 4200 0    60   ~ 0
+Batería
 $EndSCHEMATC

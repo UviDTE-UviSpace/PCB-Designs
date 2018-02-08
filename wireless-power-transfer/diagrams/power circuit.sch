@@ -260,13 +260,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2550 7100 2450
 Wire Wire Line
-	7100 2450 8450 2450
-Wire Wire Line
 	7550 2450 7550 2550
 Wire Wire Line
 	7100 3850 7100 3950
 Wire Wire Line
-	7100 3950 8450 3950
+	7100 3950 9000 3950
 Wire Wire Line
 	7550 3950 7550 3850
 Wire Wire Line
@@ -286,19 +284,19 @@ Connection ~ 7550 3950
 $Comp
 L Battery BT1
 U 1 1 59E9CF4F
-P 8450 3250
-F 0 "BT1" H 8550 3350 50  0000 L CNN
-F 1 "Battery" H 8550 3250 50  0000 L CNN
-F 2 "" V 8450 3310 50  0001 C CNN
-F 3 "" V 8450 3310 50  0001 C CNN
-	1    8450 3250
+P 9000 3250
+F 0 "BT1" H 9100 3350 50  0000 L CNN
+F 1 "Battery" H 9100 3250 50  0000 L CNN
+F 2 "" V 9000 3310 50  0001 C CNN
+F 3 "" V 9000 3310 50  0001 C CNN
+	1    9000 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 2450 8450 3050
+	9000 2450 9000 3050
 Connection ~ 7950 2450
 Wire Wire Line
-	8450 3950 8450 3450
+	9000 3950 9000 3450
 Connection ~ 7950 3950
 Wire Wire Line
 	2750 2550 3700 2550
@@ -318,13 +316,7 @@ Wire Wire Line
 	2750 3800 3700 3800
 Connection ~ 3250 3800
 Wire Notes Line
-	2300 2250 2300 4050
-Wire Notes Line
-	2300 4050 4200 4050
-Wire Notes Line
 	4200 4050 4200 2250
-Wire Notes Line
-	4200 2250 2300 2250
 Wire Notes Line
 	4400 2700 4400 3150
 Wire Notes Line
@@ -374,13 +366,13 @@ Wire Notes Line
 Wire Notes Line
 	8150 2350 7800 2350
 Wire Notes Line
-	8250 2350 8250 4100
+	8800 2350 8800 4100
 Wire Notes Line
-	8250 4100 8850 4100
+	8800 4100 9400 4100
 Wire Notes Line
-	8850 4100 8850 2350
+	9400 4100 9400 2350
 Wire Notes Line
-	8850 2350 8250 2350
+	9400 2350 8800 2350
 Text Notes 2700 4150 0    60   ~ 0
 Inversor puente completo
 Text Notes 4400 2650 0    60   ~ 0
@@ -397,6 +389,40 @@ Text Notes 7050 4200 0    60   ~ 0
 Rectificador
 Text Notes 7850 4400 0    60   ~ 0
 Filtro\npaso\nbajo
-Text Notes 8400 4200 0    60   ~ 0
-Batería
+Text Notes 8650 4200 0    60   ~ 0
+Cargador de baterías\n
+Wire Wire Line
+	8850 2450 9000 2450
+Wire Wire Line
+	7100 2450 8050 2450
+Wire Notes Line
+	8200 2250 8200 2800
+Wire Notes Line
+	8200 2800 8750 2800
+Wire Notes Line
+	8750 2800 8750 2250
+Wire Notes Line
+	8750 2250 8200 2250
+Wire Wire Line
+	8450 2750 8450 3950
+Connection ~ 8450 3950
+$Comp
+L LM7812 U1
+U 1 1 5A744BE2
+P 8450 2500
+F 0 "U1" H 8575 2300 50  0000 C CNN
+F 1 "LM7812" H 8450 2700 50  0000 C CNN
+F 2 "" H 8450 2500 50  0001 C CNN
+F 3 "" H 8450 2500 50  0001 C CNN
+	1    8450 2500
+	1    0    0    -1  
+$EndComp
+Text Notes 8250 2900 0    60   ~ 0
+Regulador
+Wire Notes Line
+	4200 2250 2400 2250
+Wire Notes Line
+	2400 2250 2400 4050
+Wire Notes Line
+	2400 4050 4200 4050
 $EndSCHEMATC
