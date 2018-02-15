@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:tfg-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +35,7 @@ LIBS:PIC18F45K20-I_PT
 LIBS:pickit3
 LIBS:r-78exx
 LIBS:switches
+LIBS:xbee_wi-fi
 LIBS:irlb8721pbf
 LIBS:tfg-cache
 EELAYER 25 0
@@ -86,8 +88,8 @@ $Comp
 L C_Small Cboot2
 U 1 1 592C7ECA
 P 11500 2700
-F 0 "Cboot2" H 11510 2770 50  0000 L CNN
-F 1 "0.47uF" H 11510 2620 50  0000 L CNN
+F 0 "Cboot2" H 11225 2775 50  0000 L CNN
+F 1 "0.47uF" H 11225 2625 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 11500 2700 50  0001 C CNN
 F 3 "" H 11500 2700 50  0001 C CNN
 	1    11500 2700
@@ -347,7 +349,7 @@ NoConn ~ 12050 5350
 NoConn ~ 11950 5350
 NoConn ~ 11850 5350
 $Comp
-L LED D3
+L LED-RESCUE-tfg D3
 U 1 1 59E8E0C4
 P 10650 5200
 F 0 "D3" H 10650 5300 50  0000 C CNN
@@ -358,7 +360,7 @@ F 3 "" H 10650 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-tfg D4
 U 1 1 59E8E153
 P 10650 5500
 F 0 "D4" H 10650 5600 50  0000 C CNN
@@ -434,8 +436,8 @@ F 3 "" H 10400 3500 50  0001 L CNN
 	1    10400 3500
 	-1   0    0    -1  
 $EndComp
-Text Notes 14950 11050 0    197  ~ 0
-1/3
+Text Notes 15100 11000 0    118  ~ 0
+1/7
 Text Label 8900 1500 0    60   ~ 0
 +15V
 Text Label 11850 1500 0    60   ~ 0
@@ -486,8 +488,6 @@ NoConn ~ 12150 5350
 NoConn ~ 12050 5350
 NoConn ~ 11950 5350
 NoConn ~ 11850 5350
-Text Notes 14950 11050 0    197  ~ 0
-1/3
 Text Label 8900 1500 0    60   ~ 0
 +15V
 Text Label 11850 1500 0    60   ~ 0
@@ -538,8 +538,6 @@ NoConn ~ 12150 5350
 NoConn ~ 12050 5350
 NoConn ~ 11950 5350
 NoConn ~ 11850 5350
-Text Notes 14950 11050 0    197  ~ 0
-1/3
 Text Label 8900 1500 0    60   ~ 0
 +15V
 Text Label 11850 1500 0    60   ~ 0
@@ -590,8 +588,6 @@ NoConn ~ 12150 5350
 NoConn ~ 12050 5350
 NoConn ~ 11950 5350
 NoConn ~ 11850 5350
-Text Notes 14950 11050 0    197  ~ 0
-1/3
 $Sheet
 S 16950 0    8050 11650
 U 59F19A9A

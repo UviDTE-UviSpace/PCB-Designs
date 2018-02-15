@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.0-rc2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 127)
     (no_connects 13)
-    (area 57.819999 25.526999 223.280001 126.325001)
+    (area 57.819999 25.526999 268.528572 193.85)
     (thickness 1.6)
-    (drawings 54)
+    (drawings 53)
     (tracks 800)
     (zones 0)
     (modules 57)
@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (title "Placa de circuito impreso del primario")
+    (title "Placa de circuito impreso del primario - Parte inferior")
     (date 2017-10-26)
   )
 
@@ -74,8 +74,8 @@
     (aux_axis_origin 57.82 125.68)
     (visible_elements 7FFEFF79)
     (pcbplotparams
-      (layerselection 0x010e0_80000001)
-      (usegerberextensions true)
+      (layerselection 0x01020_00000001)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -93,11 +93,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 0)
+      (drillshape 2)
       (scaleselection 1)
-      (outputdirectory C:/GIT/GERBER/wpt-primary/))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -2407,6 +2407,9 @@
     )
   )
 
+  (gr_text 3/7 (at 264.1 191.3) (layer F.Cu)
+    (effects (font (size 3 3) (thickness 0.3)))
+  )
   (gr_text "ON\nOFF\n" (at 211.8 31.4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
@@ -2430,12 +2433,6 @@
   )
   (gr_text "OUT 1" (at 85.25 123) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text DTE (at 130 67.4) (layer F.SilkS)
-    (effects (font (size 6 6) (thickness 0.8)))
-  )
-  (gr_text DTE (at 84.6 62.65 90) (layer F.SilkS)
-    (effects (font (size 4 4) (thickness 0.8)))
   )
   (gr_text OFF (at 141.1 103.65) (layer F.SilkS)
     (effects (font (size 3 3) (thickness 0.5)))
