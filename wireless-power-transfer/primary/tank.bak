@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:tfg-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:IR2110
-LIBS:ITFP260N
-LIBS:PIC18F45K20-I_PT
-LIBS:pickit3
-LIBS:r-78exx
-LIBS:switches
-LIBS:xbee_wi-fi
-LIBS:irlb8721pbf
+LIBS:prymary_lib
 LIBS:tfg-cache
 EELAYER 25 0
 EELAYER END
@@ -224,5 +216,5 @@ Wire Wire Line
 Wire Wire Line
 	5100 4300 5100 4150
 Text Notes 6850 11025 0    118  ~ 0
-2/4
+2/7
 $EndSCHEMATC

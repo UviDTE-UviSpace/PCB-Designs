@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BARREL_JACK
+D DC Barrel Jack
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CONN_01X06
+D Connector, single row, 01x06, pin header
+K connector
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+$ENDCMP
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP IRLB8721PBF
+D 30V Vds, 62A Id, N-Channel MOSFET, TO-220
+K N-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
+$ENDCMP
+#
+$CMP LED_ALT
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP Screw_Terminal_1x02
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+#End Doc Library
