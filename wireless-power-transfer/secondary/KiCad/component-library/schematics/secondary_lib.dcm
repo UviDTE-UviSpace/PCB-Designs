@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+$ENDCMP
+#
+$CMP LM7812CT
+D Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_1x02
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+#End Doc Library
