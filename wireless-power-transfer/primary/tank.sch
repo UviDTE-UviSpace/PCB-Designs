@@ -45,17 +45,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Screw_Terminal_1x02 Jin1
-U 1 1 59F1ACFF
-P 2800 4500
-F 0 "Jin1" H 2800 4750 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 2650 4500 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 2800 4275 50  0001 C CNN
-F 3 "" H 2775 4500 50  0001 C CNN
-	1    2800 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L L Lf1
 U 1 1 59F1AF47
 P 3500 4150
@@ -65,39 +54,6 @@ F 2 "componentesGIT:MuRata 1500 47u" H 3500 4150 50  0001 C CNN
 F 3 "" H 3500 4150 50  0001 C CNN
 	1    3500 4150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L C Cf1
-U 1 1 59F1B01C
-P 4150 4150
-F 0 "Cf1" V 4225 4200 50  0000 L CNN
-F 1 "10nF" V 4000 4050 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" H 4188 4000 50  0001 C CNN
-F 3 "" H 4150 4150 50  0001 C CNN
-	1    4150 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L C Cr1
-U 1 1 59F1B0F0
-P 4750 4450
-F 0 "Cr1" H 4775 4550 50  0000 L CNN
-F 1 "100nF" H 4775 4350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3" H 4788 4300 50  0001 C CNN
-F 3 "" H 4750 4450 50  0001 C CNN
-	1    4750 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_1x02 Jr1
-U 1 1 59F1B13E
-P 5950 4150
-F 0 "Jr1" H 5950 4400 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 5800 4150 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5950 3925 50  0001 C CNN
-F 3 "" H 5925 4150 50  0001 C CNN
-	1    5950 4150
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3000 4400 3000 4150
@@ -113,17 +69,6 @@ Connection ~ 4750 4150
 Wire Wire Line
 	3000 4750 3000 4600
 Connection ~ 4750 4750
-$Comp
-L Screw_Terminal_1x02 Jf1
-U 1 1 59F1B5CA
-P 3500 3700
-F 0 "Jf1" H 3500 3950 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 3350 3700 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3500 3475 50  0001 C CNN
-F 3 "" H 3475 3700 50  0001 C CNN
-	1    3500 3700
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3300 4150 3300 3900
 Wire Wire Line
@@ -134,28 +79,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 3900 3600 3900
 Connection ~ 3750 4150
-$Comp
-L C Cr2
-U 1 1 59F1A45D
-P 5100 4450
-F 0 "Cr2" H 5125 4550 50  0000 L CNN
-F 1 "10nF" H 5125 4350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" H 5138 4300 50  0001 C CNN
-F 3 "" H 5100 4450 50  0001 C CNN
-	1    5100 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L C Cf2
-U 1 1 59F1A4A3
-P 4150 4500
-F 0 "Cf2" V 4225 4325 50  0000 L CNN
-F 1 "2.2nF" V 4000 4400 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3" H 4188 4350 50  0001 C CNN
-F 3 "" H 4150 4500 50  0001 C CNN
-	1    4150 4500
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5100 4150
 Wire Wire Line
 	5100 4600 5100 4750
@@ -177,17 +100,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4250 5750 4250
 Connection ~ 5700 4150
-$Comp
-L Screw_Terminal_1x02 Jr2
-U 1 1 59F74076
-P 5975 4750
-F 0 "Jr2" H 5975 5000 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 5825 4750 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5975 4525 50  0001 C CNN
-F 3 "" H 5950 4750 50  0001 C CNN
-	1    5975 4750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 4650 5700 4850
 Wire Wire Line
@@ -217,4 +129,92 @@ Wire Wire Line
 	5100 4300 5100 4150
 Text Notes 6850 11025 0    118  ~ 0
 2/7
+$Comp
+L Screw_Terminal_1x02 Jin1
+U 1 1 5AA712D5
+P 2800 4500
+F 0 "Jin1" H 2800 4750 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 2650 4500 50  0000 C TNN
+F 2 "" H 2800 4275 50  0001 C CNN
+F 3 "" H 2775 4500 50  0001 C CNN
+	1    2800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 Jf1
+U 1 1 5AA7134A
+P 3500 3700
+F 0 "Jf1" H 3500 3950 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 3350 3700 50  0000 C TNN
+F 2 "" H 3500 3475 50  0001 C CNN
+F 3 "" H 3475 3700 50  0001 C CNN
+	1    3500 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C Cf1
+U 1 1 5AA713FB
+P 4150 4150
+F 0 "Cf1" H 4175 4250 50  0000 L CNN
+F 1 "C" H 4175 4050 50  0000 L CNN
+F 2 "" H 4188 4000 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L C Cf2
+U 1 1 5AA71446
+P 4150 4500
+F 0 "Cf2" H 4175 4600 50  0000 L CNN
+F 1 "C" H 4175 4400 50  0000 L CNN
+F 2 "" H 4188 4350 50  0001 C CNN
+F 3 "" H 4150 4500 50  0001 C CNN
+	1    4150 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L C Cr1
+U 1 1 5AA71489
+P 4750 4450
+F 0 "Cr1" H 4775 4550 50  0000 L CNN
+F 1 "C" H 4775 4350 50  0000 L CNN
+F 2 "" H 4788 4300 50  0001 C CNN
+F 3 "" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L C Cr2
+U 1 1 5AA71503
+P 5100 4450
+F 0 "Cr2" H 5125 4550 50  0000 L CNN
+F 1 "C" H 5125 4350 50  0000 L CNN
+F 2 "" H 5138 4300 50  0001 C CNN
+F 3 "" H 5100 4450 50  0001 C CNN
+	1    5100 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 Jr1
+U 1 1 5AA715C0
+P 5950 4150
+F 0 "Jr1" H 5950 4400 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 5800 4150 50  0000 C TNN
+F 2 "" H 5950 3925 50  0001 C CNN
+F 3 "" H 5925 4150 50  0001 C CNN
+	1    5950 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 Jr2
+U 1 1 5AA71603
+P 5975 4750
+F 0 "Jr2" H 5975 5000 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 5825 4750 50  0000 C TNN
+F 2 "" H 5975 4525 50  0001 C CNN
+F 3 "" H 5950 4750 50  0001 C CNN
+	1    5975 4750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

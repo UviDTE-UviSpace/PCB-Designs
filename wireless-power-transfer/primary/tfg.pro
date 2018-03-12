@@ -1,4 +1,4 @@
-update=06/03/2018 14:25:51
+update=12/03/2018 13:08:28
 version=1
 last_client=kicad
 [general]
@@ -61,4 +61,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=KiCad/component-library/schematics/prymary_lib
-LibName31=KiCad/component-library/prymary_lib

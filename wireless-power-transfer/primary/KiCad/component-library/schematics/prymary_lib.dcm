@@ -31,6 +31,11 @@ K N-Channel HEXFET Power MOSFET
 F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
 $ENDCMP
 #
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
 $CMP LED_ALT
 D LED generic, alternativ symbol
 K led diode
